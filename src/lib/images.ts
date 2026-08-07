@@ -16,7 +16,8 @@ export const images = {
     driveway: unsplash("1600585154340-be6161a56a0c"),
     walkway: unsplash("1600566752355-35792bedcfea"),
     houseWash: unsplash("1600607687939-ce8a6c25118c"),
-    gutter: unsplash("1560184897-ae75f418493e"),
+    roof: unsplash("1509391366360-2e959784a276"),
+    solarPanels: unsplash("1613665813446-82a78c468a1d"),
   },
 
   beforeAfter: {

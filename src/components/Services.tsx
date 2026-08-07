@@ -15,7 +15,7 @@ export default function Services() {
             Professional Exterior Cleaning Services
           </h2>
           <p className="mt-4 text-base leading-relaxed text-navy/60">
-            From driveways to gutters, we help Adelaide homes and businesses
+            From driveways to solar panels, we help Adelaide homes and businesses
             look their best with reliable, professional pressure cleaning.
           </p>
         </div>

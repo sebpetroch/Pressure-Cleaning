@@ -8,7 +8,8 @@ import {
   Home,
   ImagePlus,
   Loader2,
-  Trees,
+  Sun,
+  Warehouse,
   Waves,
   X,
 } from "lucide-react";
@@ -18,7 +19,8 @@ const serviceOptions = [
   { key: "house-wash", label: "House Wash", icon: Home },
   { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets },
   { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves },
-  { key: "gutter", label: "Gutter Cleaning", icon: Trees },
+  { key: "roof", label: "Roof Washing", icon: Warehouse },
+  { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun },
   { key: "other", label: "Other", icon: ImagePlus },
 ] as const;
 

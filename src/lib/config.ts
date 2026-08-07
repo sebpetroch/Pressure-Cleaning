@@ -29,7 +29,8 @@ export type ServiceKey =
   | "house-wash"
   | "driveway"
   | "walkway"
-  | "gutter"
+  | "roof"
+  | "solar-panels"
   | "other";
 
 export interface Service {
@@ -72,13 +73,22 @@ export const services: Service[] = [
     image: images.services.houseWash,
   },
   {
-    key: "gutter",
-    title: "Gutter Cleaning",
-    shortTitle: "Gutter Cleaning",
+    key: "roof",
+    title: "Roof Washing",
+    shortTitle: "Roof Washing",
     description:
-      "Remove leaves, dirt and debris from gutters to help keep water flowing properly and protect your property.",
-    ctaLabel: "Get a Gutter Cleaning Quote",
-    image: images.services.gutter,
+      "Safely remove moss, lichen, mould and built-up grime from your roof to protect your property and restore its appearance.",
+    ctaLabel: "Get a Roof Washing Quote",
+    image: images.services.roof,
+  },
+  {
+    key: "solar-panels",
+    title: "Solar Panel Cleaning",
+    shortTitle: "Solar Panel Cleaning",
+    description:
+      "Remove dust, dirt and grime from your solar panels to help maintain their efficiency and get the most out of your system.",
+    ctaLabel: "Get a Solar Panel Quote",
+    image: images.services.solarPanels,
   },
 ];
 
@@ -127,8 +137,9 @@ export const faqs = [
     answer: "Yes. Driveway pressure cleaning is one of our main services.",
   },
   {
-    question: "Do you clean gutters?",
-    answer: "Yes, we offer gutter cleaning for residential properties.",
+    question: "Do you clean roofs and solar panels?",
+    answer:
+      "Yes, we offer roof washing and solar panel cleaning for residential properties.",
   },
   {
     question: "What areas of Adelaide do you service?",

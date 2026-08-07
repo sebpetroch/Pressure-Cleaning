@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Adelaide Pressure Cleaning",
   },
   description:
-    "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors and gutters. Request a free quote from Adelaide Pressure Cleaning today.",
+    "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels. Request a free quote from Adelaide Pressure Cleaning today.",
   keywords: [
     "Pressure Cleaning Adelaide",
     "Pressure Washing Adelaide",
@@ -27,14 +27,15 @@ export const metadata: Metadata = {
     "Driveway Pressure Cleaning Adelaide",
     "House Washing Adelaide",
     "Exterior House Cleaning Adelaide",
-    "Gutter Cleaning Adelaide",
+    "Roof Washing Adelaide",
+    "Solar Panel Cleaning Adelaide",
     "Concrete Cleaning Adelaide",
     "Walkway Cleaning Adelaide",
   ],
   openGraph: {
     title: "Pressure Cleaning Adelaide | Adelaide Pressure Cleaning",
     description:
-      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors and gutters. Request a free quote today.",
+      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels. Request a free quote today.",
     url: business.domain,
     siteName: business.name,
     locale: "en_AU",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pressure Cleaning Adelaide | Adelaide Pressure Cleaning",
     description:
-      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors and gutters.",
+      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels.",
     images: ["/images/hero.jpg"],
   },
   alternates: {

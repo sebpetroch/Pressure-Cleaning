@@ -6,7 +6,7 @@ export default function LocalBusinessSchema() {
     "@type": "LocalBusiness",
     name: business.name,
     description:
-      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors and gutters.",
+      "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels.",
     url: business.domain,
     telephone: business.phone,
     email: business.email,
