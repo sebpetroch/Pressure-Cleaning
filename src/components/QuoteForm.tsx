@@ -13,7 +13,6 @@ import {
   Waves,
   X,
 } from "lucide-react";
-import { images } from "@/lib/images";
 
 const serviceOptions = [
   { key: "house-wash", label: "House Wash", icon: Home },
@@ -122,8 +121,8 @@ export default function QuoteForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="grid grid-cols-1 gap-8 lg:grid-cols-5">
-      <div className="lg:col-span-3">
+    <form onSubmit={handleSubmit} noValidate className="mx-auto max-w-3xl">
+      <div>
         <div className="rounded-2xl border border-black/5 bg-white p-6 shadow-sm sm:p-8">
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div className="sm:col-span-1">
@@ -332,18 +331,6 @@ export default function QuoteForm() {
             {status === "submitting" && <Loader2 className="h-5 w-5 animate-spin" />}
             Get My Free Quote
           </button>
-        </div>
-      </div>
-
-      <div className="hidden lg:col-span-2 lg:block">
-        <div className="relative h-full min-h-[520px] w-full overflow-hidden rounded-2xl">
-          <Image
-            src={images.quoteForm}
-            alt="Pressure cleaning technician washing a driveway"
-            fill
-            sizes="40vw"
-            className="object-cover"
-          />
         </div>
       </div>
     </form>
