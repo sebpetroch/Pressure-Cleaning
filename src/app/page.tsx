@@ -3,7 +3,6 @@ import Services from "@/components/Services";
 import BeforeAfter from "@/components/BeforeAfter";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
-import ServiceAreas from "@/components/ServiceAreas";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import QuoteSection from "@/components/QuoteSection";
@@ -19,7 +18,6 @@ export default function Home() {
       <BeforeAfter />
       <WhyChooseUs />
       <HowItWorks />
-      <ServiceAreas />
       <Faq />
       <FinalCta />
     </>

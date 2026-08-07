@@ -26,7 +26,13 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
     <div className="flex flex-col gap-3">
       <div
         ref={containerRef}
-        className="relative aspect-4/3 w-full touch-none select-none overflow-hidden rounded-2xl shadow-sm"
+        role="slider"
+        tabIndex={0}
+        aria-label={`Reveal ${label} before and after comparison`}
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={Math.round(position)}
+        className="relative aspect-4/3 w-full touch-none select-none overflow-hidden rounded-2xl shadow-sm outline-none focus-visible:ring-2 focus-visible:ring-blue"
         onMouseDown={(e) => {
           dragging.current = true;
           updateFromClientX(e.clientX);
@@ -38,6 +44,10 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
         onMouseLeave={() => (dragging.current = false)}
         onTouchStart={(e) => updateFromClientX(e.touches[0].clientX)}
         onTouchMove={(e) => updateFromClientX(e.touches[0].clientX)}
+        onKeyDown={(e) => {
+          if (e.key === "ArrowLeft") setPosition((p) => Math.max(0, p - 5));
+          if (e.key === "ArrowRight") setPosition((p) => Math.min(100, p + 5));
+        }}
       >
         <Image
           src={after}
@@ -77,16 +87,6 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
         <span className="absolute right-3 top-3 rounded-md bg-blue/90 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm">
           After
         </span>
-
-        <input
-          type="range"
-          min={0}
-          max={100}
-          value={position}
-          onChange={(e) => setPosition(Number(e.target.value))}
-          aria-label={`Reveal ${label} before and after comparison`}
-          className="absolute inset-x-0 bottom-2 mx-auto w-4/5 accent-blue opacity-0 focus:opacity-100 lg:opacity-100"
-        />
       </div>
       <p className="text-center text-sm font-semibold text-navy">{label}</p>
     </div>

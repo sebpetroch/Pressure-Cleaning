@@ -10,7 +10,6 @@ export async function POST(request: NextRequest) {
   const phone = formData.get("phone")?.toString().trim();
   const email = formData.get("email")?.toString().trim();
   const suburb = formData.get("suburb")?.toString().trim();
-  const address = formData.get("address")?.toString().trim() ?? "";
   const services = formData.getAll("services").map((s) => s.toString());
   const otherDetails = formData.get("otherDetails")?.toString().trim() ?? "";
   const areaSize = formData.get("areaSize")?.toString().trim() ?? "";
@@ -37,7 +36,6 @@ export async function POST(request: NextRequest) {
     phone,
     email,
     suburb,
-    address,
     services,
     otherDetails,
     areaSize,

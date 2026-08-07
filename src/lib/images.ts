@@ -25,8 +25,8 @@ export const images = {
       after: unsplash("1558618666-fcd25c85cd64"),
     },
     walkway: {
-      before: unsplash("1523419409543-a5e549c1faa8"),
-      after: unsplash("1600047509807-ba8f99d2cdde"),
+      before: "/images/walkway-before.jpg",
+      after: "/images/walkway-after.jpg",
     },
     houseWash: {
       before: unsplash("1585421514738-01798e348b17"),

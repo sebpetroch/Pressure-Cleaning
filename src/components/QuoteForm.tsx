@@ -183,18 +183,6 @@ export default function QuoteForm() {
               {errors.suburb && <p className="mt-1.5 text-xs text-red-600">{errors.suburb}</p>}
             </div>
 
-            <div className="sm:col-span-2">
-              <label htmlFor="address" className="block text-sm font-semibold text-navy">
-                Property Address <span className="font-normal text-navy/40">(optional)</span>
-              </label>
-              <input
-                id="address"
-                name="address"
-                type="text"
-                autoComplete="street-address"
-                className="mt-2 w-full rounded-lg border border-black/10 px-4 py-3 text-sm text-navy outline-none focus:border-blue focus:ring-2 focus:ring-blue/20"
-              />
-            </div>
           </div>
 
           <fieldset className="mt-7">
