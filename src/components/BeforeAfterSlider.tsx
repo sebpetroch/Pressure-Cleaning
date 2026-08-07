@@ -32,7 +32,7 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
         aria-valuemin={0}
         aria-valuemax={100}
         aria-valuenow={Math.round(position)}
-        className="relative aspect-4/3 w-full touch-none select-none overflow-hidden rounded-2xl shadow-sm outline-none focus-visible:ring-2 focus-visible:ring-blue"
+        className="relative aspect-4/3 w-full touch-none select-none overflow-hidden rounded-2xl bg-navy-dark shadow-sm outline-none focus-visible:ring-2 focus-visible:ring-blue"
         onMouseDown={(e) => {
           dragging.current = true;
           updateFromClientX(e.clientX);
@@ -54,7 +54,7 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
           alt={`${label} after pressure cleaning`}
           fill
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="object-cover"
+          className="object-contain"
         />
         <div
           className="absolute inset-y-0 left-0 overflow-hidden"
@@ -65,7 +65,7 @@ export default function BeforeAfterSlider({ before, after, label }: Props) {
             alt={`${label} before pressure cleaning`}
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
-            className="object-cover"
+            className="object-contain"
           />
         </div>
 
