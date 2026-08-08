@@ -116,6 +116,81 @@ export const serviceAreas: string[] = [
   "Morphett Vale",
 ];
 
+// Customer reviews shown in the scrolling testimonials section. Replace with
+// real reviews any time — initials/colors are generated automatically if omitted.
+export const reviews = [
+  {
+    name: "Sarah M.",
+    suburb: "Glenelg",
+    badge: "Driveway looks brand new",
+    quote:
+      "Honestly didn't think our driveway could look this good again. The mould and oil stains are completely gone. Booked in within a couple of days too.",
+  },
+  {
+    name: "Daniel R.",
+    suburb: "Norwood",
+    badge: "Booked next day",
+    quote:
+      "Called in the morning, had someone out the next day. Turned up on time, walked me through the quote clearly, and the walkway looks amazing.",
+  },
+  {
+    name: "Priya K.",
+    suburb: "Burnside",
+    badge: "Great with solar panels",
+    quote:
+      "Had our solar panels and roof cleaned together. Really careful with the panels and the difference in our power output since has been noticeable.",
+  },
+  {
+    name: "Mark T.",
+    suburb: "Brighton",
+    badge: "House looks 10 years newer",
+    quote:
+      "The whole exterior of the house was covered in grime from years of weather. These guys pressure washed it all and it honestly looks like a new build.",
+  },
+  {
+    name: "Emma L.",
+    suburb: "Prospect",
+    badge: "Fair, upfront pricing",
+    quote:
+      "Got quotes from a few places and these were the most transparent about pricing upfront. No surprises on the day, and the work was excellent.",
+  },
+  {
+    name: "James O.",
+    suburb: "Marion",
+    badge: "Sorted our rental property",
+    quote:
+      "Manage a few rental properties and needed driveways and walkways cleaned before new tenants moved in. Quick turnaround and great communication throughout.",
+  },
+  {
+    name: "Alicia B.",
+    suburb: "Unley",
+    badge: "Roof moss completely gone",
+    quote:
+      "Our tiled roof had moss all over it that we'd been putting off dealing with for years. Came back looking practically new. Highly recommend.",
+  },
+  {
+    name: "Chris H.",
+    suburb: "West Lakes",
+    badge: "Friendly and professional",
+    quote:
+      "From the first phone call to the final clean-up, everything was professional. They even swept up afterwards. Will definitely be using again.",
+  },
+  {
+    name: "Nicole F.",
+    suburb: "Golden Grove",
+    badge: "Removed years of buildup",
+    quote:
+      "The courtyard pavers hadn't been cleaned since we moved in five years ago. Genuinely amazed at how much dirt and mould came off.",
+  },
+  {
+    name: "Ben S.",
+    suburb: "Semaphore",
+    badge: "Commercial job done right",
+    quote:
+      "Used them for the entryway and car park at our shopfront. Worked around our opening hours and the results were exactly what we needed.",
+  },
+];
+
 export const faqs = [
   {
     question: "How much does pressure cleaning cost?",
