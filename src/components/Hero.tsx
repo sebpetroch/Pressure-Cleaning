@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/80">
             Bring your property back to life with professional exterior
-            cleaning for homes, driveways, walkways, roofs and solar panels.
+            cleaning for homes, driveways, walkways, roofs, solar panels + more.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
