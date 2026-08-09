@@ -36,7 +36,7 @@ export default function Hero() {
             cleaning for homes, driveways, walkways, roofs, solar panels + more.
           </p>
 
-          <div className="mt-9 flex flex-col items-center gap-4 sm:flex-row sm:items-stretch">
+          <div className="mt-9 flex flex-col items-stretch gap-4 sm:flex-row sm:items-stretch">
             <Link
               href="/#quote"
               className="inline-flex items-center justify-center rounded-lg bg-blue px-7 py-4 text-base font-semibold text-white shadow-lg shadow-blue/20 transition-colors hover:bg-blue/90"
@@ -52,12 +52,12 @@ export default function Hero() {
             </a>
           </div>
 
-          <dl className="mt-12 grid grid-cols-2 justify-items-center gap-x-6 gap-y-4 sm:flex sm:flex-wrap sm:justify-items-stretch sm:gap-x-8">
+          <dl className="mt-12 grid grid-cols-2 justify-items-start gap-x-6 gap-y-4 sm:flex sm:flex-wrap sm:justify-items-stretch sm:gap-x-8">
             {trustPoints.map(({ label, icon: Icon }) => (
-              <div key={label} className="flex items-center gap-2 text-white/90">
-                <Icon className="h-5 w-5 shrink-0 text-blue" />
+              <div key={label} className="flex items-start gap-2 text-white/90">
+                <Icon className="mt-0.5 h-5 w-5 shrink-0 text-blue" />
                 <dt className="sr-only">Trust point</dt>
-                <dd className="text-sm font-medium">{label}</dd>
+                <dd className="text-left text-sm font-medium">{label}</dd>
               </div>
             ))}
           </dl>
