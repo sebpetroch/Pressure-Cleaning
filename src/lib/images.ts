@@ -18,6 +18,7 @@ export const images = {
     houseWash: unsplash("1600607687939-ce8a6c25118c"),
     roof: unsplash("1509391366360-2e959784a276"),
     solarPanels: unsplash("1613665813446-82a78c468a1d"),
+    gutter: unsplash("1560184897-ae75f418493e"),
   },
 
   beforeAfter: {

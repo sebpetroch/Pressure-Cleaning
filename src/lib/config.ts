@@ -31,6 +31,7 @@ export type ServiceKey =
   | "walkway"
   | "roof"
   | "solar-panels"
+  | "gutter"
   | "other";
 
 export interface Service {
@@ -89,6 +90,15 @@ export const services: Service[] = [
       "Remove dust, dirt and grime from your solar panels to help maintain their efficiency and get the most out of your system.",
     ctaLabel: "Get a Solar Panel Quote",
     image: images.services.solarPanels,
+  },
+  {
+    key: "gutter",
+    title: "Gutter Cleaning",
+    shortTitle: "Gutter Cleaning",
+    description:
+      "Remove leaves, dirt and debris from gutters to help keep water flowing properly and protect your property.",
+    ctaLabel: "Get a Gutter Cleaning Quote",
+    image: images.services.gutter,
   },
 ];
 

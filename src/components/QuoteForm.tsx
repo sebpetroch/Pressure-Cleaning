@@ -5,17 +5,17 @@ import { FormEvent, useRef, useState } from "react";
 import {
   CheckCircle2,
   Droplets,
-  Home,
   ImagePlus,
   Loader2,
   Sun,
+  Trees,
   Warehouse,
   Waves,
   X,
 } from "lucide-react";
 
 const serviceOptions = [
-  { key: "house-wash", label: "House Wash", icon: Home },
+  { key: "gutter", label: "Gutter Cleaning", icon: Trees },
   { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets },
   { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves },
   { key: "roof", label: "Roof Washing", icon: Warehouse },
