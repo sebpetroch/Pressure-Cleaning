@@ -15,12 +15,12 @@ import {
 } from "lucide-react";
 
 const serviceOptions = [
-  { key: "gutter", label: "Gutter Cleaning", icon: Trees },
-  { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets },
-  { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves },
-  { key: "roof", label: "Roof Washing", icon: Warehouse },
-  { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun },
-  { key: "other", label: "Other", icon: ImagePlus },
+  { key: "gutter", label: "Gutter Cleaning", icon: Trees, startingPrice: 199 },
+  { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets, startingPrice: 249 },
+  { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves, startingPrice: 199 },
+  { key: "roof", label: "Roof Washing", icon: Warehouse, startingPrice: 349 },
+  { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun, startingPrice: 249 },
+  { key: "other", label: "Other", icon: ImagePlus, startingPrice: undefined },
 ] as const;
 
 const areaSizeOptions = ["Small", "Medium", "Large", "Not Sure"] as const;
@@ -191,12 +191,12 @@ export default function QuoteForm() {
               What service do you require?
             </legend>
             <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-              {serviceOptions.map(({ key, label, icon: Icon }) => {
+              {serviceOptions.map(({ key, label, icon: Icon, startingPrice }) => {
                 const checked = selectedServices.includes(key);
                 return (
                   <label
                     key={key}
-                    className={`flex cursor-pointer items-center gap-3 rounded-xl border px-4 py-3.5 transition-colors ${
+                    className={`flex cursor-pointer items-start gap-3 rounded-xl border px-4 py-3.5 transition-colors ${
                       checked
                         ? "border-blue bg-blue-light"
                         : "border-black/10 hover:border-blue/40"
@@ -208,8 +208,15 @@ export default function QuoteForm() {
                       checked={checked}
                       onChange={() => toggleService(key)}
                     />
-                    <Icon className={`h-5 w-5 shrink-0 ${checked ? "text-blue" : "text-navy/40"}`} />
-                    <span className="text-sm font-medium text-navy">{label}</span>
+                    <Icon className={`mt-0.5 h-5 w-5 shrink-0 ${checked ? "text-blue" : "text-navy/40"}`} />
+                    <span className="flex flex-col">
+                      <span className="text-sm font-medium text-navy">{label}</span>
+                      {startingPrice && (
+                        <span className="mt-0.5 text-xs text-navy/50">
+                          Starting from ${startingPrice}
+                        </span>
+                      )}
+                    </span>
                   </label>
                 );
               })}
