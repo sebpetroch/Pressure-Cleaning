@@ -27,8 +27,6 @@ const serviceOptions = [
   { key: "other", label: "Other", icon: ImagePlus, startingPrice: undefined },
 ] as const;
 
-const areaSizeOptions = ["Small", "Medium", "Large", "Not Sure"] as const;
-
 interface FormErrors {
   name?: string;
   phone?: string;
@@ -40,7 +38,6 @@ interface FormErrors {
 
 export default function QuoteForm() {
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
-  const [areaSize, setAreaSize] = useState<string>("");
   const [photos, setPhotos] = useState<File[]>([]);
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -89,7 +86,6 @@ export default function QuoteForm() {
     setStatus("submitting");
 
     selectedServices.forEach((s) => formData.append("services", s));
-    formData.append("areaSize", areaSize);
     photos.forEach((file) => formData.append("photos", file));
 
     try {
@@ -98,7 +94,6 @@ export default function QuoteForm() {
       setStatus("success");
       form.reset();
       setSelectedServices([]);
-      setAreaSize("");
       setPhotos([]);
     } catch {
       setStatus("error");
@@ -244,28 +239,6 @@ export default function QuoteForm() {
                 )}
               </div>
             )}
-          </fieldset>
-
-          <fieldset className="mt-7">
-            <legend className="block text-sm font-semibold text-navy">
-              Approximate area / size
-            </legend>
-            <div className="mt-3 flex flex-wrap gap-2.5">
-              {areaSizeOptions.map((option) => (
-                <button
-                  key={option}
-                  type="button"
-                  onClick={() => setAreaSize(option)}
-                  className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
-                    areaSize === option
-                      ? "border-blue bg-blue text-white"
-                      : "border-black/10 text-navy/70 hover:border-blue/40"
-                  }`}
-                >
-                  {option}
-                </button>
-              ))}
-            </div>
           </fieldset>
 
           <div className="mt-7">

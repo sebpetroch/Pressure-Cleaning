@@ -12,7 +12,6 @@ export async function POST(request: NextRequest) {
   const suburb = formData.get("suburb")?.toString().trim();
   const services = formData.getAll("services").map((s) => s.toString());
   const otherDetails = formData.get("otherDetails")?.toString().trim() ?? "";
-  const areaSize = formData.get("areaSize")?.toString().trim() ?? "";
   const message = formData.get("message")?.toString().trim() ?? "";
   const photos = formData.getAll("photos").filter((p) => p instanceof File) as File[];
 
@@ -38,7 +37,6 @@ export async function POST(request: NextRequest) {
     suburb,
     services,
     otherDetails,
-    areaSize,
     message,
     photoCount: photos.length,
   });
