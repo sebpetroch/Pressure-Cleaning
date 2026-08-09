@@ -9,7 +9,7 @@ export const business = {
   tagline: "Professional Pressure Cleaning & Exterior Cleaning Services",
   phone: "0400 000 000",
   phoneHref: "tel:+61400000000",
-  email: "info@adelaidepressureworks.com.au",
+  email: "adelaidepressureworks@gmail.com",
   abn: "00 000 000 000",
   address: {
     suburb: "Adelaide",
