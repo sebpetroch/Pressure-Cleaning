@@ -1,8 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+import { business } from "@/lib/config";
 
-// Handles quote request submissions.
-// Currently logs the submission server-side. To email or store leads, wire in
-// a provider here (e.g. Resend, SendGrid, or a database) using the fields below.
+function formatServiceLabel(key: string) {
+  return key
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 export async function POST(request: NextRequest) {
   const formData = await request.formData();
 
@@ -40,6 +46,46 @@ export async function POST(request: NextRequest) {
     message,
     photoCount: photos.length,
   });
+
+  // Email notifications require a RESEND_API_KEY environment variable.
+  // Sign up free at https://resend.com, grab an API key, and add it in your
+  // Vercel project's Settings -> Environment Variables, then redeploy.
+  if (process.env.RESEND_API_KEY) {
+    try {
+      const resend = new Resend(process.env.RESEND_API_KEY);
+
+      const serviceLabels = services.map(formatServiceLabel).join(", ");
+
+      const attachments = await Promise.all(
+        photos.map(async (file) => ({
+          filename: file.name || "photo.jpg",
+          content: Buffer.from(await file.arrayBuffer()),
+        }))
+      );
+
+      await resend.emails.send({
+        from: `${business.name} Website <onboarding@resend.dev>`,
+        to: business.email,
+        replyTo: email,
+        subject: `New Quote Request from ${name} (${suburb})`,
+        text: [
+          `Name: ${name}`,
+          `Phone: ${phone}`,
+          `Email: ${email}`,
+          `Suburb: ${suburb}`,
+          `Services: ${serviceLabels}`,
+          otherDetails ? `Other details: ${otherDetails}` : null,
+          message ? `Message: ${message}` : null,
+          `Photos attached: ${photos.length}`,
+        ]
+          .filter(Boolean)
+          .join("\n"),
+        attachments,
+      });
+    } catch (err) {
+      console.error("Failed to send quote notification email:", err);
+    }
+  }
 
   return NextResponse.json({ success: true });
 }
