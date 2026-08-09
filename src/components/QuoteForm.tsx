@@ -3,8 +3,10 @@
 import Image from "next/image";
 import { FormEvent, useRef, useState } from "react";
 import {
+  AppWindow,
   CheckCircle2,
   Droplets,
+  Home,
   ImagePlus,
   Loader2,
   Sun,
@@ -20,6 +22,8 @@ const serviceOptions = [
   { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves, startingPrice: 199 },
   { key: "roof", label: "Roof Washing", icon: Warehouse, startingPrice: 349 },
   { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun, startingPrice: 249 },
+  { key: "window-washing", label: "Window Washing", icon: AppWindow, startingPrice: 149 },
+  { key: "full-house-wash", label: "Full House Wash", icon: Home, startingPrice: 499 },
   { key: "other", label: "Other", icon: ImagePlus, startingPrice: undefined },
 ] as const;
 
