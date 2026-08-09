@@ -146,7 +146,7 @@ export default async function ArticlePage({ params }: PageProps) {
             Ready to bring your property back to life?
           </p>
           <p className="mt-2 text-sm text-navy/60">
-            Get a free, no-obligation quote from Adelaide Pressure Cleaning today.
+            Get a free, no-obligation quote from Adelaide Pressure Works today.
           </p>
           <Link
             href="/#quote"

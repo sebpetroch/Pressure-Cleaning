@@ -4,12 +4,12 @@
 import { images } from "./images";
 
 export const business = {
-  name: "Adelaide Pressure Cleaning",
-  shortName: "APC",
+  name: "Adelaide Pressure Works",
+  shortName: "APW",
   tagline: "Professional Pressure Cleaning & Exterior Cleaning Services",
   phone: "0400 000 000",
   phoneHref: "tel:+61400000000",
-  email: "info@adelaidepressurecleaning.com.au",
+  email: "info@adelaidepressureworks.com.au",
   abn: "00 000 000 000",
   address: {
     suburb: "Adelaide",
@@ -22,7 +22,7 @@ export const business = {
     instagram: "https://instagram.com/",
   },
   hours: "Mon – Sat: 7:00am – 5:00pm",
-  domain: "https://adelaidepressurecleaning.vercel.app",
+  domain: "https://adelaidepressureworks.vercel.app",
 };
 
 export type ServiceKey =

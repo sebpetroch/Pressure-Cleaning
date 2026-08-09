@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="text-lg font-extrabold text-white">
-              Adelaide<span className="text-blue"> Pressure Cleaning</span>
+              Adelaide<span className="text-blue"> Pressure Works</span>
             </p>
             <p className="mt-3 text-sm leading-relaxed">
               {business.tagline}

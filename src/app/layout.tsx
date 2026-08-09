@@ -15,11 +15,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(business.domain),
   title: {
-    default: "Pressure Cleaning Adelaide | Adelaide Pressure Cleaning",
-    template: "%s | Adelaide Pressure Cleaning",
+    default: "Pressure Cleaning Adelaide | Adelaide Pressure Works",
+    template: "%s | Adelaide Pressure Works",
   },
   description:
-    "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels. Request a free quote from Adelaide Pressure Cleaning today.",
+    "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels. Request a free quote from Adelaide Pressure Works today.",
   keywords: [
     "Pressure Cleaning Adelaide",
     "Pressure Washing Adelaide",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "Walkway Cleaning Adelaide",
   ],
   openGraph: {
-    title: "Pressure Cleaning Adelaide | Adelaide Pressure Cleaning",
+    title: "Pressure Cleaning Adelaide | Adelaide Pressure Works",
     description:
       "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels. Request a free quote today.",
     url: business.domain,
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pressure Cleaning Adelaide | Adelaide Pressure Cleaning",
+    title: "Pressure Cleaning Adelaide | Adelaide Pressure Works",
     description:
       "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels.",
     images: ["/images/hero.jpg"],

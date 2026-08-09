@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     canonical: "/articles",
   },
   openGraph: {
-    title: "Articles & Guides | Adelaide Pressure Cleaning",
+    title: "Articles & Guides | Adelaide Pressure Works",
     description:
       "Tips, guides and advice on pressure cleaning, driveway care, roof washing, gutter maintenance and solar panel cleaning for Adelaide homes.",
     url: `${business.domain}/articles`,

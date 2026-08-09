@@ -32,7 +32,7 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
         <Link href="/#home" className="flex items-center gap-2 shrink-0">
           <span className="text-lg font-extrabold tracking-tight text-white sm:text-xl">
-            Adelaide<span className="text-blue"> Pressure Cleaning</span>
+            Adelaide<span className="text-blue"> Pressure Works</span>
           </span>
         </Link>
 

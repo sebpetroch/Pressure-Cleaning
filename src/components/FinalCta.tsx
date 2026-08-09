@@ -23,7 +23,7 @@ export default function FinalCta() {
           Ready To Bring Your Property Back To Life?
         </h2>
         <p className="mt-4 text-lg text-white/80">
-          Get a free, no-obligation quote from Adelaide Pressure Cleaning
+          Get a free, no-obligation quote from Adelaide Pressure Works
           today.
         </p>
         <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
