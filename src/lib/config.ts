@@ -19,7 +19,7 @@ export const business = {
   },
   social: {
     facebook: "https://facebook.com/",
-    instagram: "https://instagram.com/",
+    instagram: "https://www.instagram.com/adelaidepressureworks/",
   },
   hours: "Mon – Sat: 7:00am – 5:00pm",
   domain: "https://adelaidepressureworks.vercel.app",
