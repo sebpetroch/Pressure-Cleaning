@@ -232,7 +232,7 @@ export const articles: Article[] = [
       "First impressions matter when selling a property. Here's why exterior cleaning is one of the highest-return, lowest-cost improvements before listing.",
     publishedAt: "2026-04-18",
     readTime: "4 min read",
-    coverImage: images.services.houseWash,
+    coverImage: images.articles.streetAppeal,
     content: [
       {
         type: "paragraph",
@@ -306,7 +306,7 @@ export const articles: Article[] = [
       "Cleaned it once and it's already back? Here's why mould and mildew return so quickly on outdoor surfaces — and what actually helps slow it down.",
     publishedAt: "2026-05-20",
     readTime: "4 min read",
-    coverImage: images.services.roof,
+    coverImage: images.articles.mould,
     content: [
       {
         type: "paragraph",
@@ -330,6 +330,205 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If mould keeps returning faster than you'd expect, get in touch — we can talk through what's likely causing it and how to keep it under control for longer.",
+      },
+    ],
+  },
+  {
+    slug: "concrete-cleaning-removing-stubborn-oil-rust-and-tyre-marks",
+    title: "Concrete Cleaning: Removing Stubborn Oil, Rust and Tyre Marks",
+    excerpt:
+      "Oil stains, rust marks and tyre scuffs are some of the toughest marks to shift from concrete. Here's what actually works.",
+    publishedAt: "2026-06-04",
+    readTime: "4 min read",
+    coverImage: images.articles.concrete,
+    content: [
+      {
+        type: "paragraph",
+        text: "Concrete is porous, which means oil, rust and rubber marks don't just sit on the surface — they soak in. That's why a quick hose down or a bit of scrubbing rarely gets rid of them completely.",
+      },
+      { type: "heading", text: "Why these stains are so stubborn" },
+      {
+        type: "list",
+        items: [
+          "Oil and grease penetrate below the surface, especially on unsealed concrete.",
+          "Rust marks from garden furniture or tools bond chemically with the concrete.",
+          "Tyre marks combine rubber residue with ground-in dirt from repeated parking.",
+          "UV exposure can bake stains in further over time, making them harder to shift.",
+        ],
+      },
+      { type: "heading", text: "What helps" },
+      {
+        type: "paragraph",
+        text: "Commercial-grade pressure cleaning combined with the right technique lifts embedded staining far more effectively than surface cleaning alone. For older or heavier stains, sometimes a couple of passes are needed to get the best result — and sealing afterwards helps prevent future marks from soaking in as deeply.",
+      },
+      {
+        type: "paragraph",
+        text: "If your driveway, garage floor or path has stubborn staining you've given up on, send us a photo — it's often more fixable than people expect.",
+      },
+    ],
+  },
+  {
+    slug: "pressure-cleaning-for-commercial-and-retail-properties",
+    title: "Pressure Cleaning for Commercial and Retail Properties",
+    excerpt:
+      "First impressions count for businesses too. Here's why regular exterior cleaning matters for commercial and retail properties.",
+    publishedAt: "2026-06-18",
+    readTime: "3 min read",
+    coverImage: images.articles.commercial,
+    content: [
+      {
+        type: "paragraph",
+        text: "For a business, the exterior of your building is effectively your storefront advertising — whether that's a shopfront entrance, car park, or the walkway customers use every day.",
+      },
+      { type: "heading", text: "Why it matters commercially" },
+      {
+        type: "list",
+        items: [
+          "A clean entrance and car park creates a stronger first impression for customers and clients.",
+          "Slippery, mould-covered walkways or ramps can become a liability risk.",
+          "Regular cleaning protects the long-term condition of paving, signage and building exteriors.",
+          "Well-maintained premises reflect on how customers perceive the business itself.",
+        ],
+      },
+      { type: "heading", text: "Working around your business" },
+      {
+        type: "paragraph",
+        text: "We schedule commercial jobs around opening hours where possible, so cleaning doesn't get in the way of customers or day-to-day operations.",
+      },
+      {
+        type: "paragraph",
+        text: "If you manage a shopfront, office or commercial property in Adelaide, get in touch for a quote — we can talk through a one-off clean or a regular maintenance schedule.",
+      },
+    ],
+  },
+  {
+    slug: "eco-friendly-pressure-cleaning-what-happens-to-the-water",
+    title: "Eco-Friendly Pressure Cleaning: What Happens to the Water?",
+    excerpt:
+      "A common question we get asked — where does all that water and dirt actually go, and is pressure cleaning environmentally friendly?",
+    publishedAt: "2026-07-02",
+    readTime: "3 min read",
+    coverImage: images.articles.ecoFriendly,
+    content: [
+      {
+        type: "paragraph",
+        text: "Pressure cleaning uses water more efficiently than most people assume — high-pressure equipment does more with less volume compared to a standard hose, and the process itself doesn't rely on harsh chemicals for most jobs.",
+      },
+      { type: "heading", text: "Where does the runoff go?" },
+      {
+        type: "paragraph",
+        text: "We're mindful of drainage and runoff on every job, particularly around stormwater drains, garden beds and any areas where runoff could affect plants or waterways. Where needed, we can contain or redirect runoff away from sensitive areas.",
+      },
+      { type: "heading", text: "Do you need to use chemicals?" },
+      {
+        type: "paragraph",
+        text: "Most dirt, grime and mould can be removed through pressure and technique alone. Where a treatment is needed for stubborn mould or organic growth, we use products chosen to be as safe as possible for surrounding gardens and pets.",
+      },
+      {
+        type: "paragraph",
+        text: "If you have questions about how a specific job will be handled around pets, plants or waterways, just ask when you request your quote — we're happy to talk through it.",
+      },
+    ],
+  },
+  {
+    slug: "preparing-your-property-for-summer-entertaining",
+    title: "Preparing Your Property for Summer Entertaining",
+    excerpt:
+      "Before the entertaining season kicks off, here's what's worth cleaning first to get your outdoor areas guest-ready.",
+    publishedAt: "2026-07-20",
+    readTime: "3 min read",
+    coverImage: images.articles.summerEntertaining,
+    content: [
+      {
+        type: "paragraph",
+        text: "Outdoor entertaining areas take a bit of a beating over the cooler months — leaves, grime and mould build up while they're not getting as much use. A clean before summer makes a noticeable difference.",
+      },
+      { type: "heading", text: "Where to focus" },
+      {
+        type: "list",
+        items: [
+          "Alfresco areas, patios and decking that will get the most foot traffic.",
+          "Pool surrounds, which can get slippery if mould has built up over winter.",
+          "Driveways and walkways guests will actually walk across.",
+          "Gutters, especially before storm season, to avoid overflow during summer rain.",
+        ],
+      },
+      { type: "heading", text: "Book ahead of the rush" },
+      {
+        type: "paragraph",
+        text: "Spring and early summer tend to be our busiest time of year as everyone has the same idea at once. Booking a little earlier means your property is ready well before the first barbecue of the season.",
+      },
+      {
+        type: "paragraph",
+        text: "Get in touch for a free quote and we'll help you prioritise what to clean first.",
+      },
+    ],
+  },
+  {
+    slug: "investment-property-cleaning-a-checklist-for-landlords",
+    title: "Investment Property Cleaning: A Checklist for Landlords",
+    excerpt:
+      "Between tenants is the easiest time to get exterior cleaning done. Here's a simple checklist for landlords and property managers.",
+    publishedAt: "2026-08-05",
+    readTime: "4 min read",
+    coverImage: images.articles.landlordChecklist,
+    content: [
+      {
+        type: "paragraph",
+        text: "Exterior presentation plays a real role in how quickly a rental property leases and the calibre of tenant it attracts. Vacancy periods between tenants are usually the easiest time to get cleaning done without working around anyone living there.",
+      },
+      { type: "heading", text: "A simple pre-listing checklist" },
+      {
+        type: "list",
+        items: [
+          "Driveway and any paved areas — first impression for prospective tenants.",
+          "Walkways and entrances leading to the front door.",
+          "Exterior walls, especially render or cladding facing the street.",
+          "Gutters, to catch any issues before a new tenant moves in.",
+        ],
+      },
+      { type: "heading", text: "Managing multiple properties" },
+      {
+        type: "paragraph",
+        text: "If you manage several properties, we can work with you or your property manager to schedule cleaning around vacancy periods and keep a consistent standard across your portfolio.",
+      },
+      {
+        type: "paragraph",
+        text: "Get in touch for a quote — we're happy to work directly with property managers and can provide invoices suited to rental management needs.",
+      },
+    ],
+  },
+  {
+    slug: "how-weather-affects-when-you-should-book-a-pressure-clean",
+    title: "How Weather Affects When You Should Book a Pressure Clean",
+    excerpt:
+      "Adelaide's seasons each bring their own buildup of dirt, mould and debris. Here's how weather patterns affect the best time to clean.",
+    publishedAt: "2026-08-22",
+    readTime: "3 min read",
+    coverImage: images.articles.weather,
+    content: [
+      {
+        type: "paragraph",
+        text: "Adelaide's mix of dry summers, wet winters and windy periods in between each affect exterior surfaces differently. Timing your cleaning around the seasons can help you get more value out of each clean.",
+      },
+      { type: "heading", text: "Autumn and winter" },
+      {
+        type: "paragraph",
+        text: "Falling leaves and increased rainfall make this the peak season for blocked gutters and mould growth in shaded areas. It's a good time to book gutter cleaning and address any mould before it spreads further.",
+      },
+      { type: "heading", text: "Spring" },
+      {
+        type: "paragraph",
+        text: "As things dry out, pollen and dust settle on driveways, roofs and solar panels. A spring clean ahead of summer keeps everything looking sharp and performing well.",
+      },
+      { type: "heading", text: "Summer" },
+      {
+        type: "paragraph",
+        text: "Dust storms and dry conditions can leave a fine layer of grime across exterior surfaces, while UV exposure makes existing staining more noticeable. It's also entertaining season, so outdoor areas get the most use.",
+      },
+      {
+        type: "paragraph",
+        text: "Not sure what season is best for your job? Send us a message and we'll advise based on what needs cleaning and your property's specific conditions.",
       },
     ],
   },

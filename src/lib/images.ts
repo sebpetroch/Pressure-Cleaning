@@ -21,6 +21,18 @@ export const images = {
     gutter: "/images/service-gutter.jpg",
   },
 
+  // Article cover images — each one is unique so no two articles share a photo.
+  articles: {
+    streetAppeal: unsplash("1592928302636-c83cf1e1c887"),
+    mould: unsplash("1524758631624-e2822e304c36"),
+    concrete: unsplash("1580587771525-78b9dba3b914"),
+    commercial: unsplash("1519974719765-e6559eac2575"),
+    ecoFriendly: unsplash("1600607687920-4e2a09cf159d"),
+    summerEntertaining: unsplash("1518481612222-68bbe828ecd1"),
+    landlordChecklist: unsplash("1509316975850-ff9c5deb0cd9"),
+    weather: unsplash("1600607687644-c7171b42498f"),
+  },
+
   beforeAfter: {
     driveway: {
       before: unsplash("1615529182904-14819c35db37"),
