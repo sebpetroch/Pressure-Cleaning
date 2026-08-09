@@ -164,7 +164,7 @@ export const articles: Article[] = [
       "Blocked gutters are one of the most overlooked maintenance issues on Australian homes. Here's why regular cleaning is worth staying on top of.",
     publishedAt: "2026-03-22",
     readTime: "4 min read",
-    coverImage: images.services.gutter,
+    coverImage: "/images/article-gutter.jpg",
     content: [
       {
         type: "paragraph",

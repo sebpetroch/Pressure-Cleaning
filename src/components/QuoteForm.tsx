@@ -4,20 +4,20 @@ import Image from "next/image";
 import { FormEvent, useRef, useState } from "react";
 import {
   AppWindow,
+  BrickWall,
   CheckCircle2,
   Droplets,
   Home,
   ImagePlus,
   Loader2,
   Sun,
-  Trees,
   Warehouse,
   Waves,
   X,
 } from "lucide-react";
 
 const serviceOptions = [
-  { key: "gutter", label: "Gutter Cleaning", icon: Trees, startingPrice: 149 },
+  { key: "exterior-walls", label: "Exterior Walls", icon: BrickWall, startingPrice: 149 },
   { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets, startingPrice: 199 },
   { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves, startingPrice: 199 },
   { key: "roof", label: "Roof Washing", icon: Warehouse, startingPrice: 349 },

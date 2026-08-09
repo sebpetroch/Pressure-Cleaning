@@ -18,7 +18,7 @@ export const images = {
     houseWash: "/images/service-housewash.png",
     roof: "/images/service-roof.webp",
     solarPanels: "/images/service-solar.jpg",
-    gutter: "/images/service-gutter.jpg",
+    exteriorWalls: "/images/service-exteriorwalls.jpg",
   },
 
   // Article cover images — each one is unique so no two articles share a photo.
