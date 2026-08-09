@@ -191,6 +191,148 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "walkway-and-paver-cleaning-restoring-slippery-mould-covered-paths",
+    title: "Walkway and Paver Cleaning: Restoring Slippery, Mould-Covered Paths",
+    excerpt:
+      "Shaded walkways and paved courtyards are some of the worst spots for mould buildup — and some of the most dangerous when they get slippery.",
+    publishedAt: "2026-04-05",
+    readTime: "3 min read",
+    coverImage: images.services.walkway,
+    content: [
+      {
+        type: "paragraph",
+        text: "Walkways, courtyards and paved entertaining areas often sit in shade for large parts of the day, which makes them one of the fastest surfaces on a property to develop mould, algae and general grime.",
+      },
+      { type: "heading", text: "Why it's more than a cosmetic issue" },
+      {
+        type: "paragraph",
+        text: "A green or black film on pavers isn't just unattractive — it can become genuinely slippery when wet, especially on smooth-finished pavers or tiled outdoor areas. That's a real trip hazard for family, guests or customers walking through.",
+      },
+      { type: "heading", text: "What a professional clean involves" },
+      {
+        type: "list",
+        items: [
+          "Removing built-up mould, algae and organic staining from the paver surface.",
+          "Cleaning between joints and grout lines, not just the paver tops.",
+          "Adjusting pressure and technique for softer or older pavers to avoid damage.",
+          "Leaving the area safe and presentable for immediate use.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If your walkway, courtyard or entrance is looking tired or feels slippery underfoot, it's worth getting a free quote — it's often a quicker and more affordable fix than people expect.",
+      },
+    ],
+  },
+  {
+    slug: "boosting-your-homes-street-appeal-before-selling",
+    title: "Boosting Your Home's Street Appeal Before Selling",
+    excerpt:
+      "First impressions matter when selling a property. Here's why exterior cleaning is one of the highest-return, lowest-cost improvements before listing.",
+    publishedAt: "2026-04-18",
+    readTime: "4 min read",
+    coverImage: images.services.houseWash,
+    content: [
+      {
+        type: "paragraph",
+        text: "Buyers form an opinion about a property before they even step through the front door. Driveways, walkways and exterior walls covered in dirt, mould or staining can quietly undercut an otherwise well-presented home.",
+      },
+      { type: "heading", text: "Where to focus first" },
+      {
+        type: "list",
+        items: [
+          "The driveway and front pathway — the very first thing buyers see and walk across.",
+          "House exterior walls, especially render or cladding facing the street.",
+          "Entryways, porches and any tiled or paved outdoor areas.",
+          "Gutters and fascias, which are easy to overlook but noticeable up close.",
+        ],
+      },
+      { type: "heading", text: "A low-cost improvement with a strong payoff" },
+      {
+        type: "paragraph",
+        text: "Compared to renovations or landscaping, a full exterior pressure clean is inexpensive and can be completed in a single visit — often making a bigger visual difference than people expect for the price.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're preparing to list your property, get in touch for a free quote and we'll help you prioritise what will make the biggest difference before your first open inspection.",
+      },
+    ],
+  },
+  {
+    slug: "5-questions-to-ask-before-hiring-a-pressure-cleaner",
+    title: "5 Questions to Ask Before Hiring a Pressure Cleaner",
+    excerpt:
+      "Not all pressure cleaning services are the same. Here's what to ask before booking someone to work on your property.",
+    publishedAt: "2026-05-02",
+    readTime: "4 min read",
+    coverImage: images.hero,
+    content: [
+      {
+        type: "paragraph",
+        text: "Pressure cleaning looks like a simple service from the outside, but the quality, care and equipment used can vary a lot between providers. A few quick questions can save you from a disappointing result — or worse, damage to your property.",
+      },
+      { type: "heading", text: "1. Are you insured?" },
+      {
+        type: "paragraph",
+        text: "Any reputable operator should be able to confirm they carry insurance. This protects you in the unlikely event something goes wrong during the job.",
+      },
+      { type: "heading", text: "2. What equipment do you use?" },
+      {
+        type: "paragraph",
+        text: "Commercial-grade equipment, calibrated to the surface being cleaned, gives a far more consistent result than a hardware store hire unit.",
+      },
+      { type: "heading", text: "3. Is the quote clear and upfront?" },
+      {
+        type: "paragraph",
+        text: "You should know roughly what you're paying before the work starts, based on the size and condition of the area — not be surprised on the day.",
+      },
+      { type: "heading", text: "4. How do they handle different surfaces?" },
+      {
+        type: "paragraph",
+        text: "Concrete, pavers, render, timber and roofing all need different pressure levels and techniques. A good operator will be able to explain this without prompting.",
+      },
+      { type: "heading", text: "5. Can they show examples of previous work?" },
+      {
+        type: "paragraph",
+        text: "Photos or reviews from real customers are a good sign you're dealing with an established, reliable service rather than a one-off job.",
+      },
+    ],
+  },
+  {
+    slug: "understanding-mould-and-mildew-why-it-keeps-coming-back",
+    title: "Understanding Mould and Mildew: Why It Keeps Coming Back",
+    excerpt:
+      "Cleaned it once and it's already back? Here's why mould and mildew return so quickly on outdoor surfaces — and what actually helps slow it down.",
+    publishedAt: "2026-05-20",
+    readTime: "4 min read",
+    coverImage: images.services.roof,
+    content: [
+      {
+        type: "paragraph",
+        text: "It's a common frustration — a surface gets cleaned, looks great for a while, then mould or mildew starts creeping back within months. Understanding why it happens helps explain what actually works long term.",
+      },
+      { type: "heading", text: "Why mould comes back so easily" },
+      {
+        type: "list",
+        items: [
+          "Shaded, damp areas provide the perfect environment for spores to resettle and regrow.",
+          "Surface scrubbing alone often leaves roots or spores embedded below the surface.",
+          "Poor drainage or overhanging trees keep surfaces damp for longer after rain.",
+          "Porous surfaces like unsealed concrete and render hold moisture longer than sealed ones.",
+        ],
+      },
+      { type: "heading", text: "What actually helps" },
+      {
+        type: "paragraph",
+        text: "A proper pressure clean removes far more of the embedded growth than surface scrubbing or a basic hose-down. Sealing surfaces after cleaning, improving airflow where possible, and staying on a regular cleaning schedule all help slow regrowth significantly.",
+      },
+      {
+        type: "paragraph",
+        text: "If mould keeps returning faster than you'd expect, get in touch — we can talk through what's likely causing it and how to keep it under control for longer.",
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {
