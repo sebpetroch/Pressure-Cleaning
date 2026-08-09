@@ -218,8 +218,13 @@ export const faqs = [
       "Pressure cleaning can remove significant amounts of dirt, grime and organic buildup. The exact cleaning process will depend on the surface and condition.",
   },
   {
-    question: "Do you clean driveways?",
-    answer: "Yes. Driveway pressure cleaning is one of our main services.",
+    question: "What surfaces can you clean?",
+    answer: "Driveways, paths, pavers, walls, decks, patios - most exterior surfaces.",
+  },
+  {
+    question: "Will my pavers need re-sanding afterward?",
+    answer:
+      "Only if the joints are already low or loose. A standard clean doesn't automatically require re-sanding.",
   },
   {
     question: "Do you clean roofs and solar panels?",
