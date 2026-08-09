@@ -2,8 +2,6 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import BeforeAfter from "@/components/BeforeAfter";
 import Reviews from "@/components/Reviews";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import HowItWorks from "@/components/HowItWorks";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import QuoteSection from "@/components/QuoteSection";
@@ -18,8 +16,6 @@ export default function Home() {
       <QuoteSection />
       <BeforeAfter />
       <Reviews />
-      <WhyChooseUs />
-      <HowItWorks />
       <Faq />
       <FinalCta />
     </>

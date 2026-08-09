@@ -231,8 +231,6 @@ export const faqs = [
 export const navLinks = [
   { label: "Home", href: "/#home" },
   { label: "Services", href: "/#services" },
-  { label: "About", href: "/#about" },
-  { label: "Why Choose Us", href: "/#why-choose-us" },
   { label: "FAQ", href: "/#faq" },
   { label: "Contact", href: "/#quote" },
 ];
