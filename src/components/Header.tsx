@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, Phone, X } from "lucide-react";
@@ -30,10 +31,15 @@ export default function Header() {
       } bg-navy`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
-        <Link href="/#home" className="flex items-center gap-2 shrink-0">
-          <span className="text-lg font-extrabold tracking-tight text-white sm:text-xl">
-            Adelaide<span className="text-blue"> Pressure Works</span>
-          </span>
+        <Link href="/#home" className="flex shrink-0 items-center">
+          <Image
+            src="/images/logo.png"
+            alt={business.name}
+            width={1536}
+            height={1024}
+            priority
+            className="h-14 w-auto object-contain lg:h-16"
+          />
         </Link>
 
         <nav className="hidden lg:flex lg:items-center lg:gap-8">

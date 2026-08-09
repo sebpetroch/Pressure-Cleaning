@@ -1,6 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { business, navLinks, serviceAreas, services } from "@/lib/config";
+import { business, navLinks, services } from "@/lib/config";
 
 function FacebookIcon() {
   return (
@@ -28,9 +29,13 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <p className="text-lg font-extrabold text-white">
-              Adelaide<span className="text-blue"> Pressure Works</span>
-            </p>
+            <Image
+              src="/images/logo.png"
+              alt={business.name}
+              width={1536}
+              height={1024}
+              className="h-16 w-auto object-contain"
+            />
             <p className="mt-3 text-sm leading-relaxed">
               {business.tagline}
             </p>
@@ -109,16 +114,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-6">
-          <p className="text-xs font-semibold uppercase tracking-wide text-white/50">
-            Service Areas
-          </p>
-          <p className="mt-3 text-sm leading-relaxed text-white/60">
-            {serviceAreas.join(" · ")}
-          </p>
-        </div>
-
-        <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/50 sm:flex-row sm:items-center sm:justify-between">
           <p>
             &copy; {year} {business.name}. All rights reserved. ABN {business.abn}.
           </p>
