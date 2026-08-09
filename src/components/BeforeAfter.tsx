@@ -5,7 +5,7 @@ const items = [
   { label: "Driveways", ...images.beforeAfter.driveway },
   { label: "Walkways", ...images.beforeAfter.walkway },
   { label: "House Washing", ...images.beforeAfter.houseWash },
-  { label: "Roof Cleaning", ...images.beforeAfter.concrete },
+  { label: "Roof Cleaning", ...images.beforeAfter.roof },
 ];
 
 export default function BeforeAfter() {

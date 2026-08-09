@@ -35,20 +35,20 @@ export const images = {
 
   beforeAfter: {
     driveway: {
-      before: unsplash("1615529182904-14819c35db37"),
-      after: unsplash("1558618666-fcd25c85cd64"),
+      before: "/images/beforeafter-driveway-before.jpg",
+      after: "/images/beforeafter-driveway-after.jpg",
     },
     walkway: {
       before: "/images/walkway-before.jpg",
       after: "/images/walkway-after.jpg",
     },
     houseWash: {
-      before: unsplash("1585421514738-01798e348b17"),
-      after: unsplash("1502005229762-cf1b2da7c5d6"),
+      before: "/images/beforeafter-housewash-before.jpg",
+      after: "/images/beforeafter-housewash-after.jpg",
     },
-    concrete: {
-      before: unsplash("1521783988139-89397d761dce"),
-      after: unsplash("1512917774080-9991f1c4c750"),
+    roof: {
+      before: "/images/beforeafter-roof-before.jpg",
+      after: "/images/beforeafter-roof-after.jpg",
     },
   },
 };
