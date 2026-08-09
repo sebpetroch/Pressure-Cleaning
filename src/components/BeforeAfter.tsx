@@ -1,4 +1,4 @@
-import BeforeAfterSlider from "./BeforeAfterSlider";
+import BeforeAfterCard from "./BeforeAfterCard";
 import { images } from "@/lib/images";
 
 const items = [
@@ -21,13 +21,13 @@ export default function BeforeAfter() {
           </h2>
           <p className="mt-4 text-base leading-relaxed text-navy/60">
             Professional pressure cleaning can completely transform tired
-            outdoor surfaces. Drag the slider to reveal the result.
+            outdoor surfaces.
           </p>
         </div>
 
         <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2">
           {items.map((item) => (
-            <BeforeAfterSlider
+            <BeforeAfterCard
               key={item.label}
               before={item.before}
               after={item.after}
