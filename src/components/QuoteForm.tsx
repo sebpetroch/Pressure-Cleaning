@@ -23,7 +23,7 @@ const serviceOptions = [
   { key: "roof", label: "Roof Washing", icon: Warehouse, startingPrice: 349 },
   { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun, startingPrice: 249 },
   { key: "window-washing", label: "Window Washing", icon: AppWindow, startingPrice: 149 },
-  { key: "full-house-wash", label: "Full House Wash", icon: Home, startingPrice: 499 },
+  { key: "full-house-wash", label: "Full House Wash", icon: Home, startingPrice: 399 },
   { key: "other", label: "Other", icon: ImagePlus, startingPrice: undefined },
 ] as const;
 
