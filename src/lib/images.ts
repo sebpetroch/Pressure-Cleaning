@@ -13,12 +13,12 @@ export const images = {
   finalCta: unsplash("1560184897-ae75f418493e", 1920),
 
   services: {
-    driveway: unsplash("1600585154340-be6161a56a0c"),
-    walkway: unsplash("1600566752355-35792bedcfea"),
-    houseWash: unsplash("1600607687939-ce8a6c25118c"),
-    roof: unsplash("1509391366360-2e959784a276"),
-    solarPanels: unsplash("1613665813446-82a78c468a1d"),
-    gutter: unsplash("1560184897-ae75f418493e"),
+    driveway: "/images/service-driveway.jpg",
+    walkway: "/images/service-walkway.jpg",
+    houseWash: "/images/service-housewash.jpg",
+    roof: "/images/service-roof.webp",
+    solarPanels: "/images/service-solar.jpg",
+    gutter: "/images/service-gutter.jpg",
   },
 
   beforeAfter: {
