@@ -756,6 +756,270 @@ export const articles: Article[] = [
       },
     ],
   },
+  {
+    slug: "driveway-pressure-washing-adelaide",
+    title: "Driveway Pressure Washing Adelaide: The Complete Guide",
+    excerpt:
+      "Everything you need to know about professional driveway pressure washing in Adelaide — what's included, our process, and what it costs.",
+    publishedAt: "2026-09-05",
+    readTime: "5 min read",
+    coverImage: images.articles.pillarDriveway,
+    content: [
+      {
+        type: "paragraph",
+        text: "Your driveway is one of the largest and most visible surfaces on your property, and it takes a constant beating from car traffic, oil drips, tree sap, mould and Adelaide's mix of hot dry summers and wet winters. Driveway pressure washing is our most requested service, and for good reason — it's one of the fastest ways to lift the whole look of a property.",
+      },
+      { type: "heading", text: "What's included in a driveway clean" },
+      {
+        type: "list",
+        items: [
+          "Full surface clean across concrete, exposed aggregate, pavers or brick driveways.",
+          "Targeted treatment for oil stains, rust marks, tyre scuffs and general grime.",
+          "Removal of moss, algae and mould, particularly in shaded areas.",
+          "A final rinse to leave the surface clean and safe to walk and drive on.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "We start by assessing the surface type and condition to work out the right pressure and technique — concrete, pavers and exposed aggregate all respond differently. Stubborn stains get pre-treated before the main clean, then we work methodically across the full driveway for an even, consistent finish rather than obvious patchy sections.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "Driveway pressure washing starts from $199, with the final price depending on the size of the driveway, the surface type and how much staining needs to be removed. We provide a clear quote before any work begins, based on your description or photos.",
+      },
+      { type: "heading", text: "How often should it be done?" },
+      {
+        type: "paragraph",
+        text: "Most Adelaide homes benefit from a driveway clean every 12 to 18 months, though shaded driveways under trees or those with heavy car use may need attention closer to every 6 to 12 months to stay on top of staining before it sets in.",
+      },
+      {
+        type: "paragraph",
+        text: "Ready to see the difference on your own driveway? Request a free quote and we'll get back to you with pricing and availability.",
+      },
+    ],
+  },
+  {
+    slug: "walkway-pressure-washing-adelaide",
+    title: "Walkway Pressure Washing Adelaide: The Complete Guide",
+    excerpt:
+      "A full breakdown of our walkway and paver pressure washing service in Adelaide, including process, pricing and how often it's needed.",
+    publishedAt: "2026-09-12",
+    readTime: "4 min read",
+    coverImage: images.articles.pillarWalkway,
+    content: [
+      {
+        type: "paragraph",
+        text: "Walkways, entrances and courtyards see constant foot traffic, and because they're often shaded by fences, plants or the house itself, they're some of the fastest surfaces on a property to develop mould and become slippery. Professional walkway pressure washing restores both the look and the safety of these areas.",
+      },
+      { type: "heading", text: "What's included" },
+      {
+        type: "list",
+        items: [
+          "Cleaning of pathways, entrances, courtyards and paved outdoor areas.",
+          "Removal of mould, algae and organic staining from the surface and joints.",
+          "Pressure and technique adjusted for pavers, concrete, tiles or natural stone.",
+          "A safe, presentable finish suitable for immediate use.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "Walkways often combine multiple surface types in a small area — pavers leading to tiled entryways, for example — so we adjust pressure across the job rather than treating it as one uniform surface. Joints and grout lines get specific attention since they typically hold more grime than the paver tops themselves.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "Walkway pressure washing starts from $199, depending on the length and condition of the area and the surface type involved. Get in touch with a few details or photos and we'll provide an accurate quote.",
+      },
+      { type: "heading", text: "Why it matters beyond appearance" },
+      {
+        type: "paragraph",
+        text: "A mould-covered walkway isn't just unsightly — it becomes genuinely slippery when wet, which is a real trip hazard for family, guests or customers. Regular cleaning keeps these high-traffic areas both safe and presentable.",
+      },
+      {
+        type: "paragraph",
+        text: "Request a free quote today and we'll help you prioritise which areas need attention first.",
+      },
+    ],
+  },
+  {
+    slug: "house-wash-adelaide",
+    title: "House Wash Adelaide: The Complete Guide to Exterior House Washing",
+    excerpt:
+      "How professional house washing works in Adelaide, what surfaces are safe to clean, and what a full exterior wash costs.",
+    publishedAt: "2026-09-19",
+    readTime: "5 min read",
+    coverImage: images.articles.pillarHouseWash,
+    content: [
+      {
+        type: "paragraph",
+        text: "A full house wash is one of the most effective ways to lift your home's street appeal — removing years of dirt, grime, mould and general weathering from exterior walls. It's also one of the easiest services to get wrong with DIY equipment, which is why it's worth understanding what a professional clean actually involves.",
+      },
+      { type: "heading", text: "What's included" },
+      {
+        type: "list",
+        items: [
+          "A full exterior clean covering render, brick, weatherboard or cladding.",
+          "Mould and organic growth treatment, not just a surface rinse.",
+          "Careful pressure and technique matched to your specific wall material.",
+          "Attention around windows, vents and roof lines to avoid forcing water where it shouldn't go.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "We start by identifying the wall material and its condition — older render, weatherboard and painted surfaces all need a gentler approach than solid brick or modern cladding. Pre-treatment handles mould and organic staining before the main wash, and we work methodically across the whole exterior for a consistent, even result.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "A full house wash starts from $399, depending on the size of the home, the number of storeys and the current condition of the exterior. We're happy to provide a firm quote once we know a bit more about the property.",
+      },
+      { type: "heading", text: "Is it safe for older homes?" },
+      {
+        type: "paragraph",
+        text: "This is one of the most common questions we get, and it's an important one — the wrong pressure on brittle or ageing render, paint or timber can cause real damage. We adjust pressure and technique to the specific home rather than using a one-size-fits-all approach, and we'll always be upfront if a property needs a gentler method.",
+      },
+      {
+        type: "paragraph",
+        text: "Get in touch for a free quote and we'll talk you through what's involved for your specific home.",
+      },
+    ],
+  },
+  {
+    slug: "roof-washing-adelaide",
+    title: "Roof Washing Adelaide: The Complete Guide",
+    excerpt:
+      "What's involved in professional roof washing in Adelaide, how it's done safely, and what it typically costs.",
+    publishedAt: "2026-09-26",
+    readTime: "5 min read",
+    coverImage: images.articles.pillarRoof,
+    content: [
+      {
+        type: "paragraph",
+        text: "Roof washing is one of the more specialised services we offer — it involves working at height, on a surface that can be fragile or slippery, and safely removing moss, lichen and grime without damaging tiles or coatings. Done properly, it makes a dramatic difference to how a home looks from the street.",
+      },
+      { type: "heading", text: "What's included" },
+      {
+        type: "list",
+        items: [
+          "Assessment of roof material and condition to determine safe pressure and technique.",
+          "Careful removal of moss, lichen and organic growth from tiled or metal roofing.",
+          "Clearing of debris from valleys and gutter lines while we're up there.",
+          "A final check to make sure the roof is left safe and nothing has been missed.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "Tiled roofs and metal roofing need different handling, and older or more fragile tiles need a gentler approach than newer, more resilient ones. We assess the roof before starting and adjust pressure accordingly — the goal is a thorough clean without dislodging or cracking anything in the process.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "Roof washing starts from $349, with pricing depending on the size of the roof, its pitch and how much moss or grime buildup needs to be removed. Send us a few photos and we'll come back with an accurate quote.",
+      },
+      { type: "heading", text: "How often should roofs be cleaned?" },
+      {
+        type: "paragraph",
+        text: "Most Adelaide homes benefit from a professional roof clean every 2 to 3 years, though roofs under overhanging trees or in shaded, damp positions can need attention sooner. Pairing a roof clean with gutter cleaning or solar panel cleaning is common, since we're already up there.",
+      },
+      {
+        type: "paragraph",
+        text: "Request a free quote and we'll assess what's realistic for your roof before any work begins.",
+      },
+    ],
+  },
+  {
+    slug: "solar-panel-cleaning-adelaide",
+    title: "Solar Panel Cleaning Adelaide: The Complete Guide",
+    excerpt:
+      "Why solar panel cleaning matters for system performance, how it's done safely, and what to expect from a professional clean in Adelaide.",
+    publishedAt: "2026-10-03",
+    readTime: "4 min read",
+    coverImage: images.articles.pillarSolar,
+    content: [
+      {
+        type: "paragraph",
+        text: "Solar panels sit outside in the elements year-round, collecting dust, pollen, bird droppings and general grime that can quietly reduce how much power your system generates. A professional clean is a small job that helps you get the most out of a significant investment.",
+      },
+      { type: "heading", text: "What's included" },
+      {
+        type: "list",
+        items: [
+          "A full clean of the panel surface using the right pressure and technique.",
+          "Careful handling to avoid any risk to the glass, frames or seals.",
+          "Safe roof access without putting your panels or roof at risk.",
+          "An option to combine with a roof or gutter clean in the same visit.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "Solar panels are more delicate than they look, so we use appropriately low pressure and soft technique rather than treating them like a driveway or roof. The goal is a thorough clean that doesn't put your system's performance or warranty at risk.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "Solar panel cleaning starts from $249, depending on the number of panels, their accessibility and how long it's been since they were last cleaned. Get in touch for a free quote.",
+      },
+      { type: "heading", text: "Best time of year to clean" },
+      {
+        type: "paragraph",
+        text: "Late winter or early spring is a great time to book — it clears off the buildup from the wetter months and gets your system performing at its best right as daylight hours and summer demand start increasing.",
+      },
+      {
+        type: "paragraph",
+        text: "Request a free quote and we'll help you time it to get the most value from the clean.",
+      },
+    ],
+  },
+  {
+    slug: "exterior-wall-cleaning-adelaide",
+    title: "Exterior Wall Cleaning Adelaide: The Complete Guide",
+    excerpt:
+      "How professional exterior wall cleaning works for brick, render and cladding, and what it costs in Adelaide.",
+    publishedAt: "2026-10-10",
+    readTime: "4 min read",
+    coverImage: images.services.exteriorWalls,
+    content: [
+      {
+        type: "paragraph",
+        text: "Exterior walls take on dirt, grime, mould and general staining over time, particularly in shaded or south-facing areas that don't get much direct sun. Whether it's brick, render or cladding, a professional clean can dramatically lift the appearance of a property without the cost of repainting.",
+      },
+      { type: "heading", text: "What's included" },
+      {
+        type: "list",
+        items: [
+          "Cleaning of brick, render, cladding and other exterior wall surfaces.",
+          "Mould and organic staining treatment, not just a surface rinse.",
+          "Pressure and technique matched to the specific wall material.",
+          "Careful attention around windows, brick joints and trims.",
+        ],
+      },
+      { type: "heading", text: "Our process" },
+      {
+        type: "paragraph",
+        text: "Different wall materials need different handling — render is generally softer than solid brick, and older or painted surfaces need a gentler approach again. We assess the wall material and condition first, then work section by section for an even, consistent result across the full exterior.",
+      },
+      { type: "heading", text: "How much does it cost?" },
+      {
+        type: "paragraph",
+        text: "Exterior wall cleaning starts from $149, depending on the area involved, the wall material and how much staining needs to be removed. Send us a few photos and we'll come back with a clear quote.",
+      },
+      { type: "heading", text: "Brick, render or cladding?" },
+      {
+        type: "paragraph",
+        text: "Not sure what your exterior walls are made of, or what pressure they can handle? That's fine — just describe the property or send a photo when you request a quote, and we'll factor it into how the job is approached.",
+      },
+      {
+        type: "paragraph",
+        text: "Request a free quote today and bring your exterior walls back to life.",
+      },
+    ],
+  },
 ];
 
 export function getArticleBySlug(slug: string) {

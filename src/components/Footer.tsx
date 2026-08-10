@@ -80,9 +80,9 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {services.map((s) => (
                 <li key={s.key}>
-                  <SectionLink href="/#services" className="hover:text-white">
+                  <Link href={`/articles/${s.articleSlug}`} className="hover:text-white">
                     {s.shortTitle}
-                  </SectionLink>
+                  </Link>
                 </li>
               ))}
             </ul>

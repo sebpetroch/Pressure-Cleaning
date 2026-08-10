@@ -27,7 +27,7 @@ export default function BeforeAfter() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2">
           {items.map((item) => (
             <BeforeAfterCard
               key={item.label}

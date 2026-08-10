@@ -31,6 +31,11 @@ export const images = {
     summerEntertaining: unsplash("1518481612222-68bbe828ecd1"),
     landlordChecklist: unsplash("1509316975850-ff9c5deb0cd9"),
     weather: unsplash("1600607687644-c7171b42498f"),
+    pillarDriveway: "/images/article-pillar-driveway.jpg",
+    pillarWalkway: "/images/article-pillar-walkway.jpg",
+    pillarHouseWash: "/images/article-pillar-housewash.jpg",
+    pillarRoof: "/images/article-pillar-roof.jpg",
+    pillarSolar: "/images/article-pillar-solar.jpg",
   },
 
   beforeAfter: {

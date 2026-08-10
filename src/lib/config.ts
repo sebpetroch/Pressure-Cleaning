@@ -41,6 +41,8 @@ export interface Service {
   description: string;
   ctaLabel: string;
   image: string;
+  // Slug of the detailed article for this service under /articles
+  articleSlug: string;
   // Optional starting price - leave undefined to hide pricing on the site
   startingPrice?: number;
 }
@@ -54,6 +56,7 @@ export const services: Service[] = [
       "Remove built-up dirt, grime, mould and staining from your driveway and restore the appearance of your concrete or paved surfaces.",
     ctaLabel: "Get a Driveway Quote",
     image: images.services.driveway,
+    articleSlug: "driveway-pressure-washing-adelaide",
   },
   {
     key: "walkway",
@@ -63,6 +66,7 @@ export const services: Service[] = [
       "Clean pathways, entrances, courtyards and outdoor areas to remove dirt, mould and slippery surface buildup.",
     ctaLabel: "Get a Walkway Quote",
     image: images.services.walkway,
+    articleSlug: "walkway-pressure-washing-adelaide",
   },
   {
     key: "house-wash",
@@ -72,6 +76,7 @@ export const services: Service[] = [
       "Professionally clean exterior walls and surfaces to remove dirt, grime, mould and environmental buildup while improving your home's street appeal.",
     ctaLabel: "Get a House Wash Quote",
     image: images.services.houseWash,
+    articleSlug: "house-wash-adelaide",
   },
   {
     key: "roof",
@@ -81,6 +86,7 @@ export const services: Service[] = [
       "Safely remove moss, lichen, mould and built-up grime from your roof to protect your property and restore its appearance.",
     ctaLabel: "Get a Roof Washing Quote",
     image: images.services.roof,
+    articleSlug: "roof-washing-adelaide",
   },
   {
     key: "solar-panels",
@@ -90,6 +96,7 @@ export const services: Service[] = [
       "Remove dust, dirt and grime from your solar panels to help maintain their efficiency and get the most out of your system.",
     ctaLabel: "Get a Solar Panel Quote",
     image: images.services.solarPanels,
+    articleSlug: "solar-panel-cleaning-adelaide",
   },
   {
     key: "exterior-walls",
@@ -99,6 +106,7 @@ export const services: Service[] = [
       "Remove dirt, grime, mould and staining from brick, render and cladding to bring your exterior walls back to life.",
     ctaLabel: "Get an Exterior Walls Quote",
     image: images.services.exteriorWalls,
+    articleSlug: "exterior-wall-cleaning-adelaide",
   },
 ];
 
