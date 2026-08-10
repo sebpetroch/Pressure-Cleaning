@@ -12,6 +12,7 @@ export default function LocalBusinessSchema() {
     url: business.domain,
     telephone: business.phone,
     email: business.email,
+    taxID: business.abn,
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",

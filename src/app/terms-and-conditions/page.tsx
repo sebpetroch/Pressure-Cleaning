@@ -30,6 +30,9 @@ export default function TermsPage() {
           For any questions regarding these terms, please contact us at{" "}
           {business.email}.
         </p>
+        <p>
+          {business.name} — ABN {business.abn}.
+        </p>
       </div>
     </div>
   );
