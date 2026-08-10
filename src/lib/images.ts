@@ -50,9 +50,9 @@ export const images = {
       before: "https://freshfront.com.au/wp-content/uploads/2025/07/before-04.webp",
       after: "https://freshfront.com.au/wp-content/uploads/2025/07/after-04.webp",
     },
-    roof: {
-      before: "/images/beforeafter-roof-before.jpg",
-      after: "/images/beforeafter-roof-after.jpg",
+    exteriorWalls: {
+      before: "/images/beforeafter-exteriorwalls-before.jpg",
+      after: "/images/beforeafter-exteriorwalls-after.jpg",
     },
   },
 };
