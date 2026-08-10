@@ -43,8 +43,8 @@ export const images = {
       after: "/images/walkway-after.jpg",
     },
     houseWash: {
-      before: "/images/beforeafter-housewash-before.jpg",
-      after: "/images/beforeafter-housewash-after.jpg",
+      before: "/images/beforeafter-housewash2-before.jpg",
+      after: "/images/beforeafter-housewash2-after.jpg",
     },
     pavers: {
       before: "https://freshfront.com.au/wp-content/uploads/2025/07/before-04.webp",
@@ -53,6 +53,10 @@ export const images = {
     exteriorWalls: {
       before: "/images/beforeafter-exteriorwalls-before.jpg",
       after: "/images/beforeafter-exteriorwalls-after.jpg",
+    },
+    gutter: {
+      before: "/images/beforeafter-gutter-before.jpg",
+      after: "/images/beforeafter-gutter-after.jpg",
     },
   },
 };

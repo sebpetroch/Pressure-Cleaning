@@ -35,7 +35,6 @@ export default function BeforeAfterCard({ before, after, label }: Props) {
           </span>
         </div>
       </div>
-      <p className="text-center text-sm font-semibold text-navy">{label}</p>
     </div>
   );
 }

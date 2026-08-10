@@ -6,6 +6,8 @@ const items = [
   { label: "Walkways", ...images.beforeAfter.walkway },
   { label: "Brick Pavers", ...images.beforeAfter.pavers },
   { label: "Exterior Walls", ...images.beforeAfter.exteriorWalls },
+  { label: "House Wash", ...images.beforeAfter.houseWash },
+  { label: "Gutter Cleaning", ...images.beforeAfter.gutter },
 ];
 
 export default function BeforeAfter() {
@@ -25,7 +27,7 @@ export default function BeforeAfter() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2">
+        <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item) => (
             <BeforeAfterCard
               key={item.label}
