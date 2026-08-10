@@ -46,7 +46,7 @@ export default function ArticlesPage() {
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white/70">
             Practical guides on driveway care, roof washing, gutter
             maintenance and more — from the team at Adelaide Pressure
-            Cleaning.
+            Works.
           </p>
         </div>
       </div>

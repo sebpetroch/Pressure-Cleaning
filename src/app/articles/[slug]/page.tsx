@@ -55,6 +55,11 @@ export default async function ArticlePage({ params }: PageProps) {
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
+  const relatedArticles = articles
+    .filter((a) => a.slug !== article.slug)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 3);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -62,14 +67,36 @@ export default async function ArticlePage({ params }: PageProps) {
     description: article.excerpt,
     image: [article.coverImage],
     datePublished: article.publishedAt,
+    dateModified: article.publishedAt,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${business.domain}/articles/${article.slug}`,
+    },
     author: {
       "@type": "Organization",
       name: business.name,
+      url: business.domain,
     },
     publisher: {
       "@type": "Organization",
       name: business.name,
+      url: business.domain,
     },
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: business.domain },
+      { "@type": "ListItem", position: 2, name: "Articles", item: `${business.domain}/articles` },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: article.title,
+        item: `${business.domain}/articles/${article.slug}`,
+      },
+    ],
   };
 
   return (
@@ -77,6 +104,10 @@ export default async function ArticlePage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <div className="relative h-64 w-full overflow-hidden sm:h-80 lg:h-96">
@@ -155,6 +186,36 @@ export default async function ArticlePage({ params }: PageProps) {
             Request a Free Quote
           </Link>
         </div>
+
+        {relatedArticles.length > 0 && (
+          <div className="mt-16 border-t border-black/10 pt-10">
+            <h2 className="text-lg font-bold text-navy">Related Articles</h2>
+            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-3">
+              {relatedArticles.map((related) => (
+                <Link
+                  key={related.slug}
+                  href={`/articles/${related.slug}`}
+                  className="group flex flex-col overflow-hidden rounded-xl border border-black/5 bg-white shadow-sm transition-shadow hover:shadow-md"
+                >
+                  <div className="relative h-32 w-full overflow-hidden">
+                    <Image
+                      src={related.coverImage}
+                      alt={related.title}
+                      fill
+                      sizes="(min-width: 640px) 33vw, 100vw"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <p className="text-sm font-semibold text-navy group-hover:text-blue">
+                      {related.title}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </article>
   );
