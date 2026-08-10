@@ -46,6 +46,10 @@ export const images = {
       before: "/images/beforeafter-housewash-before.jpg",
       after: "/images/beforeafter-housewash-after.jpg",
     },
+    pavers: {
+      before: "https://freshfront.com.au/wp-content/uploads/2025/07/before-04.webp",
+      after: "https://freshfront.com.au/wp-content/uploads/2025/07/after-04.webp",
+    },
     roof: {
       before: "/images/beforeafter-roof-before.jpg",
       after: "/images/beforeafter-roof-after.jpg",

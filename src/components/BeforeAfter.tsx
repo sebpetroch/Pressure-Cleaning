@@ -4,7 +4,7 @@ import { images } from "@/lib/images";
 const items = [
   { label: "Driveways", ...images.beforeAfter.driveway },
   { label: "Walkways", ...images.beforeAfter.walkway },
-  { label: "Exterior Walls", ...images.beforeAfter.houseWash },
+  { label: "Pavers", ...images.beforeAfter.pavers },
   { label: "Roof Cleaning", ...images.beforeAfter.roof },
 ];
 
