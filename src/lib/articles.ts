@@ -57,6 +57,26 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "If you're not sure whether your driveway needs a clean, send us a few photos and we'll let you know honestly — sometimes a light clean now saves a much bigger job later.",
       },
+      { type: "heading", text: "Why DIY often falls short" },
+      {
+        type: "paragraph",
+        text: "A hired pressure washer can shift surface dirt, but most consumer-grade units don't have the pressure or hot-water capability to fully lift embedded oil, mould roots or years of ground-in grime. It's common for a DIY clean to look good for a few weeks before the staining reappears, because only the surface layer was actually removed.",
+      },
+      { type: "heading", text: "What a professional clean actually does differently" },
+      {
+        type: "list",
+        items: [
+          "Commercial-grade equipment reaches pressure and flow rates well beyond hire units, lifting embedded staining rather than just surface dust.",
+          "Pre-treatment for oil, rust or mould means the clean lasts longer instead of the stains creeping back within weeks.",
+          "Even, consistent technique across the whole surface avoids the patchy, streaky result common with DIY attempts.",
+          "No risk to garden beds, pets or nearby surfaces from over-spraying or incorrect chemical use.",
+        ],
+      },
+      { type: "heading", text: "Cost of leaving it too long" },
+      {
+        type: "paragraph",
+        text: "The longer staining sits on concrete, the deeper it penetrates — especially on unsealed or older driveways. A drive that's gone three or four years without a clean often needs a longer, more intensive job than one on a regular 12 to 18 month cycle, which usually means a higher price for the same result. Staying on top of it is almost always the cheaper option over time.",
+      },
     ],
   },
   {
@@ -91,6 +111,26 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "If your roof is overdue, get in touch for a free quote — we'll talk you through the process and what to expect before any work begins.",
       },
+      { type: "heading", text: "How often roofs actually need cleaning" },
+      {
+        type: "paragraph",
+        text: "Most Adelaide homes benefit from a professional roof clean every 2 to 3 years, though roofs under overhanging trees or in shaded, damp positions can need attention sooner. Tiled roofs tend to show moss and lichen growth faster than metal roofing, which is generally more resistant but can still develop staining and dirt build-up over time.",
+      },
+      { type: "heading", text: "What the cleaning process involves" },
+      {
+        type: "list",
+        items: [
+          "An assessment of the roof material and condition to determine the right pressure and technique.",
+          "Careful removal of moss, lichen and organic growth without dislodging or cracking tiles.",
+          "Clearing debris from valleys and gutter lines while we're up there.",
+          "A final check to make sure nothing has been missed and the roof is left safe to walk away from.",
+        ],
+      },
+      { type: "heading", text: "Is it safe for older or fragile roofs?" },
+      {
+        type: "paragraph",
+        text: "This is one of the most common concerns we hear, and it's a fair one — the wrong pressure on brittle or ageing tiles can cause damage. That's why pressure and technique are adjusted to the specific roof rather than using a one-size-fits-all approach. If a roof is in poor condition, we'll tell you honestly before starting rather than risk making things worse.",
+      },
     ],
   },
   {
@@ -121,6 +161,25 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If your home has render, older paintwork, timber features or you're simply not confident with pressure equipment, it's worth getting a professional opinion first. We use commercial-grade equipment calibrated for each surface type, so you get a thorough clean without the risk.",
+      },
+      { type: "heading", text: "The real cost of getting it wrong" },
+      {
+        type: "paragraph",
+        text: "Stripped paint, cracked render or water forced behind cladding aren't always obvious straight away — sometimes the damage shows up weeks later as bubbling paint, damp patches or mould growth behind the wall. Repairing that kind of damage typically costs far more than a professional clean would have in the first place.",
+      },
+      { type: "heading", text: "What professional house washing looks like" },
+      {
+        type: "list",
+        items: [
+          "Pressure and nozzle selection matched to the specific wall material — render, brick, weatherboard or cladding all need different handling.",
+          "Pre-treatment for mould and organic growth so it's actually removed, not just rinsed off the surface.",
+          "Careful attention around windows, vents and roof lines to avoid forcing water where it shouldn't go.",
+          "A methodical, even pass across the whole exterior for a consistent finish rather than obvious streaking.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you've already attempted a DIY clean and you're not happy with the result, or you're just not confident tackling it yourself, get in touch for a free quote — we're happy to assess the property and explain what's involved before any work starts.",
       },
     ],
   },
@@ -154,6 +213,26 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If it's been a while since your panels were cleaned, it's worth getting a quote — especially before the peak of summer when every bit of generation counts.",
+      },
+      { type: "heading", text: "Signs your panels need cleaning" },
+      {
+        type: "list",
+        items: [
+          "A visible layer of dust, pollen or grime across the panel surface.",
+          "Bird droppings or leaf debris sitting on individual cells.",
+          "A noticeable drop in your system's generation compared to previous months on similar weather days.",
+          "It's been over 12 months since the panels were last cleaned.",
+        ],
+      },
+      { type: "heading", text: "Best time of year to clean your panels" },
+      {
+        type: "paragraph",
+        text: "Late winter or early spring is a great time to book a clean — it clears off the buildup from the wetter, windier months and gets your system performing at its best right as daylight hours and summer demand start increasing. Cleaning again before the height of summer can help squeeze out extra performance during the months your system matters most.",
+      },
+      { type: "heading", text: "DIY solar panel cleaning risks" },
+      {
+        type: "paragraph",
+        text: "Solar panels are more delicate than they look — the wrong pressure, tools or detergent can scratch the glass or damage seals, which affects both performance and warranty. Working on a roof also carries obvious safety risks without the right equipment. It's one of those jobs where the cost of a professional clean is small compared to the cost of getting it wrong.",
       },
     ],
   },
@@ -189,6 +268,25 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "A gutter clean is a small job that prevents much bigger ones down the line. Get in touch and we'll take care of it.",
       },
+      { type: "heading", text: "Why DIY gutter cleaning is riskier than it looks" },
+      {
+        type: "paragraph",
+        text: "Ladder falls are one of the most common causes of home DIY injuries, and gutters are rarely at a convenient, safe height. Beyond the safety risk, it's easy to miss debris in valleys, downpipe entrances or hard-to-reach sections, which means the job doesn't actually solve the problem it was meant to fix.",
+      },
+      { type: "heading", text: "What's included in a professional gutter clean" },
+      {
+        type: "list",
+        items: [
+          "Full clearing of leaves, twigs and sediment from gutters and valleys.",
+          "Checking that downpipes are flowing freely, not just the gutters themselves.",
+          "A visual check for early signs of rust, sagging or damage worth knowing about.",
+          "Debris removed from the property, not just tipped onto the ground below.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Gutter cleaning pairs well with a roof wash if it's due around the same time — we can quote both together and save you a second visit.",
+      },
     ],
   },
   {
@@ -223,6 +321,25 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "If your walkway, courtyard or entrance is looking tired or feels slippery underfoot, it's worth getting a free quote — it's often a quicker and more affordable fix than people expect.",
       },
+      { type: "heading", text: "How often should walkways be cleaned?" },
+      {
+        type: "paragraph",
+        text: "Shaded, high-traffic walkways often need attention every 6 to 12 months, while sunnier, well-drained paths can go longer. Courtyards enclosed by fences or dense planting tend to hold moisture longest and are usually the first area to show mould again after a clean.",
+      },
+      { type: "heading", text: "Different paver types need different care" },
+      {
+        type: "list",
+          items: [
+          "Concrete pavers can generally handle higher pressure than natural stone or older, worn pavers.",
+          "Sandstone and limestone are softer and need lower pressure to avoid surface erosion.",
+          "Joints and grout lines often hold more grime than the paver surface itself and need specific attention.",
+          "Sealed pavers respond differently to cleaning than unsealed ones, so it pays to know which you have.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Not sure what your pavers can handle? Send us a photo when you request your quote and we'll factor it into how the job is approached.",
+      },
     ],
   },
   {
@@ -256,6 +373,16 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If you're preparing to list your property, get in touch for a free quote and we'll help you prioritise what will make the biggest difference before your first open inspection.",
+      },
+      { type: "heading", text: "Timing it around your campaign" },
+      {
+        type: "paragraph",
+        text: "Ideally, exterior cleaning happens a week or two before photos are taken, giving surfaces time to fully dry and any nearby plants time to settle after cleaning. Booking too close to your first open inspection risks a rushed job — booking early in your selling timeline gives you the most flexibility.",
+      },
+      { type: "heading", text: "What agents notice" },
+      {
+        type: "paragraph",
+        text: "Real estate agents consistently point to street appeal as one of the easiest wins before a campaign. A tired, stained exterior can make buyers question what else hasn't been maintained, even if the inside of the home is presented beautifully. A clean exterior sets the tone before anyone's even walked through the front door.",
       },
     ],
   },
@@ -297,6 +424,20 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "Photos or reviews from real customers are a good sign you're dealing with an established, reliable service rather than a one-off job.",
       },
+      { type: "heading", text: "Red flags to watch for" },
+      {
+        type: "list",
+        items: [
+          "Vague or reluctant answers about insurance or experience.",
+          "No willingness to provide a quote before turning up on the day.",
+          "Pressure to pay a large deposit upfront for a small residential job.",
+          "No fixed business details, phone number or way to follow up after the job.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Taking a few minutes to ask these questions upfront makes it far more likely you'll end up happy with the result — and avoids the cost and hassle of a job that needs to be redone.",
+      },
     ],
   },
   {
@@ -330,6 +471,21 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If mould keeps returning faster than you'd expect, get in touch — we can talk through what's likely causing it and how to keep it under control for longer.",
+      },
+      { type: "heading", text: "Is mould on exterior surfaces a health concern?" },
+      {
+        type: "paragraph",
+        text: "While outdoor mould is generally less of a direct health concern than indoor mould, it can still trigger allergies or respiratory irritation for sensitive individuals, and it's not something you want tracked inside on shoes or paws. Beyond health, ongoing organic growth can also gradually degrade porous surfaces like render, grout and unsealed concrete.",
+      },
+      { type: "heading", text: "Keeping mould away for longer after a clean" },
+      {
+        type: "list",
+        items: [
+          "Trim back overhanging branches and dense plants to improve airflow and sunlight to affected areas.",
+          "Address drainage issues that leave water sitting on surfaces after rain.",
+          "Consider sealing porous surfaces after cleaning to reduce how much moisture they absorb.",
+          "Stick to a regular cleaning schedule rather than waiting until growth is heavy again.",
+        ],
       },
     ],
   },
@@ -365,6 +521,16 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "If your driveway, garage floor or path has stubborn staining you've given up on, send us a photo — it's often more fixable than people expect.",
       },
+      { type: "heading", text: "Setting realistic expectations" },
+      {
+        type: "paragraph",
+        text: "Some very old or deeply set stains may lighten significantly rather than disappear completely, particularly on unsealed concrete that's absorbed staining over many years. We'll always give you an honest assessment of what's realistically achievable before starting, rather than promising a result we can't deliver.",
+      },
+      { type: "heading", text: "Protecting concrete after cleaning" },
+      {
+        type: "paragraph",
+        text: "Once stains are removed, sealing the concrete is one of the best ways to keep it looking clean for longer. A sealed surface is far more resistant to oil, rust and general staining, which means less frequent cleaning and an easier job each time it's due.",
+      },
     ],
   },
   {
@@ -399,6 +565,16 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "If you manage a shopfront, office or commercial property in Adelaide, get in touch for a quote — we can talk through a one-off clean or a regular maintenance schedule.",
       },
+      { type: "heading", text: "Safety and compliance considerations" },
+      {
+        type: "paragraph",
+        text: "Commercial property owners and managers can carry liability for slips and falls on their premises. Regularly cleaning entrances, ramps and car parks isn't just about presentation — it's a practical part of managing risk, particularly for walkways that get wet or shaded areas prone to mould buildup.",
+      },
+      { type: "heading", text: "How often commercial properties should be cleaned" },
+      {
+        type: "paragraph",
+        text: "This varies with foot traffic and location, but many commercial and retail properties benefit from a clean every 3 to 6 months for high-traffic entrances, with a full exterior clean annually. Properties in shaded arcades or near garden beds often need more frequent attention than free-standing, sun-exposed premises.",
+      },
     ],
   },
   {
@@ -427,6 +603,20 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "If you have questions about how a specific job will be handled around pets, plants or waterways, just ask when you request your quote — we're happy to talk through it.",
+      },
+      { type: "heading", text: "How it compares to a garden hose" },
+      {
+        type: "paragraph",
+        text: "It seems counterintuitive, but professional pressure cleaning often uses less total water than a homeowner scrubbing away with a hose over an hour or more. Higher pressure means the job gets done faster and more thoroughly, so less water runs continuously while someone works out how to shift a stubborn stain.",
+      },
+      { type: "heading", text: "Choosing an environmentally considerate provider" },
+      {
+        type: "list",
+        items: [
+          "Ask how they manage runoff near stormwater drains and garden beds.",
+          "Check whether they default to pressure and technique before reaching for chemical treatments.",
+          "Ask what products are used if treatment is required, and whether they're pet and plant safe.",
+        ],
       },
     ],
   },
@@ -462,6 +652,20 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "Get in touch for a free quote and we'll help you prioritise what to clean first.",
       },
+      { type: "heading", text: "Areas people often forget" },
+      {
+        type: "list",
+        items: [
+          "Outdoor furniture areas and the pavers or decking underneath them.",
+          "Side pathways and gates that guests use but aren't always front of mind.",
+          "BBQ areas, which build up grease and grime alongside general dirt.",
+          "Fence lines and boundary walls bordering the entertaining area.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A little planning goes a long way — working through these areas a few weeks out means everything has time to dry and settle before your first gathering of the season.",
+      },
     ],
   },
   {
@@ -496,6 +700,16 @@ export const articles: Article[] = [
         type: "paragraph",
         text: "Get in touch for a quote — we're happy to work directly with property managers and can provide invoices suited to rental management needs.",
       },
+      { type: "heading", text: "The return on investment for landlords" },
+      {
+        type: "paragraph",
+        text: "A clean, well-presented exterior tends to attract stronger rental applications and can support a higher achievable rent, particularly in a competitive market. Compared to the cost of an extended vacancy, a pre-listing exterior clean is a relatively small expense with a clear payoff.",
+      },
+      { type: "heading", text: "End of lease vs new tenant preparation" },
+      {
+        type: "paragraph",
+        text: "Some landlords prefer to clean at the end of a lease so the property is ready to list immediately, while others wait until a new tenant is confirmed to time it closer to move-in. Either approach works — the main thing is building it into your standard turnover process rather than treating it as optional.",
+      },
     ],
   },
   {
@@ -529,6 +743,16 @@ export const articles: Article[] = [
       {
         type: "paragraph",
         text: "Not sure what season is best for your job? Send us a message and we'll advise based on what needs cleaning and your property's specific conditions.",
+      },
+      { type: "heading", text: "Why timing can affect the outcome" },
+      {
+        type: "paragraph",
+        text: "Cleaning right before a run of wet weather can mean pollen, dust and airborne debris settle back onto surfaces faster than usual, shortening how long the result lasts. Where possible, we'll factor the forecast into scheduling so you get the most value from the clean rather than seeing it undone within days.",
+      },
+      { type: "heading", text: "Planning cleans around the whole year" },
+      {
+        type: "paragraph",
+        text: "Rather than reacting once something looks visibly dirty, many Adelaide homeowners find it easier to plan exterior cleaning around the seasons — gutters and roof before winter, driveways and walkways heading into spring, and solar panels ahead of summer. A little planning spreads the cost out and keeps the property looking after itself year-round.",
       },
     ],
   },
