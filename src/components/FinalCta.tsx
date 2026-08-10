@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Phone } from "lucide-react";
 import { business } from "@/lib/config";
 import { images } from "@/lib/images";
+import SectionLink from "@/components/SectionLink";
 
 export default function FinalCta() {
   return (
@@ -27,12 +27,12 @@ export default function FinalCta() {
           today.
         </p>
         <div className="mt-9 flex flex-col justify-center gap-4 sm:flex-row">
-          <Link
+          <SectionLink
             href="/#quote"
             className="inline-flex items-center justify-center rounded-lg bg-blue px-7 py-4 text-base font-semibold text-white shadow-lg shadow-blue/20 transition-colors hover:bg-blue/90"
           >
             Request a Free Quote
-          </Link>
+          </SectionLink>
           <a
             href={business.phoneHref}
             className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/25 bg-white/5 px-7 py-4 text-base font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/15"

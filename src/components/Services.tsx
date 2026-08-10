@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { services } from "@/lib/config";
+import SectionLink from "@/components/SectionLink";
 
 export default function Services() {
   return (
@@ -40,13 +40,13 @@ export default function Services() {
                 <p className="mt-2.5 flex-1 text-sm leading-relaxed text-navy/60">
                   {service.description}
                 </p>
-                <Link
+                <SectionLink
                   href="/#quote"
                   className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-blue transition-colors hover:text-navy"
                 >
                   {service.ctaLabel}
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                </Link>
+                </SectionLink>
               </div>
             </div>
           ))}

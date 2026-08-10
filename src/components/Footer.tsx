@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { business, navLinks, services } from "@/lib/config";
+import SectionLink from "@/components/SectionLink";
 
 function FacebookIcon() {
   return (
@@ -64,9 +65,9 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:text-white">
+                  <SectionLink href={link.href} className="hover:text-white">
                     {link.label}
-                  </Link>
+                  </SectionLink>
                 </li>
               ))}
             </ul>
@@ -79,9 +80,9 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {services.map((s) => (
                 <li key={s.key}>
-                  <Link href="/#services" className="hover:text-white">
+                  <SectionLink href="/#services" className="hover:text-white">
                     {s.shortTitle}
-                  </Link>
+                  </SectionLink>
                 </li>
               ))}
             </ul>
