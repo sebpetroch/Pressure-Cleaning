@@ -3,6 +3,11 @@ import { business } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
+  description:
+    "How Adelaide Pressure Works collects, uses and protects the information you share through our quote request form.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

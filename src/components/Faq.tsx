@@ -7,8 +7,25 @@ import { faqs } from "@/lib/config";
 export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
     <section id="faq" className="bg-grey-light py-20 sm:py-28">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-blue">
@@ -39,13 +56,14 @@ export default function Faq() {
                     }`}
                   />
                 </button>
-                {isOpen && (
-                  <div className="px-6 pb-5">
-                    <p className="text-sm leading-relaxed text-navy/60">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
+                <div
+                  className={`grid px-6 text-sm leading-relaxed text-navy/60 transition-all ${
+                    isOpen ? "grid-rows-[1fr] pb-5 opacity-100" : "grid-rows-[0fr] opacity-0"
+                  }`}
+                  style={{ display: "grid" }}
+                >
+                  <p className="overflow-hidden">{faq.answer}</p>
+                </div>
               </div>
             );
           })}

@@ -3,6 +3,11 @@ import { business } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions",
+  description:
+    "The terms and conditions that apply to quotes and services booked with Adelaide Pressure Works.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
 };
 
 export default function TermsPage() {

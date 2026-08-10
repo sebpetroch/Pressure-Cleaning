@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileCtaBar from "@/components/MobileCtaBar";
 import { business } from "@/lib/config";
+import { images } from "@/lib/images";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,14 +41,14 @@ export const metadata: Metadata = {
     siteName: business.name,
     locale: "en_AU",
     type: "website",
-    images: ["/images/hero.jpg"],
+    images: [images.hero],
   },
   twitter: {
     card: "summary_large_image",
     title: "Pressure Cleaning Adelaide | Adelaide Pressure Works",
     description:
       "Professional pressure cleaning in Adelaide for driveways, walkways, house exteriors, roofs and solar panels.",
-    images: ["/images/hero.jpg"],
+    images: [images.hero],
   },
   alternates: {
     canonical: "/",
