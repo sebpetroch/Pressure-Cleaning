@@ -60,7 +60,7 @@ export const services: Service[] = [
   },
   {
     key: "walkway",
-    title: "Paths & Patio Pressure Cleaning",
+    title: "Path & Patio Pressure Cleaning",
     shortTitle: "Paths & Patio Pressure Washing",
     description:
       "Clean pathways, entrances, courtyards and outdoor areas to remove dirt, mould and slippery surface buildup.",
