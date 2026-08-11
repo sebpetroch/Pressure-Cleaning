@@ -19,7 +19,7 @@ import {
 const serviceOptions = [
   { key: "exterior-walls", label: "Exterior Walls", icon: BrickWall, startingPrice: 149 },
   { key: "driveway", label: "Pressure Washing – Driveway", icon: Droplets, startingPrice: 199 },
-  { key: "walkway", label: "Pressure Washing – Walkway", icon: Waves, startingPrice: 199 },
+  { key: "walkway", label: "Pressure Washing – Paths & Patio", icon: Waves, startingPrice: 199 },
   { key: "roof", label: "Roof Washing", icon: Warehouse, startingPrice: 349 },
   { key: "solar-panels", label: "Solar Panel Cleaning", icon: Sun, startingPrice: 249 },
   { key: "window-washing", label: "Window Washing", icon: AppWindow, startingPrice: 149 },

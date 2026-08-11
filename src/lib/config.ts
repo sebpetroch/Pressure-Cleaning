@@ -60,8 +60,8 @@ export const services: Service[] = [
   },
   {
     key: "walkway",
-    title: "Walkway Pressure Cleaning",
-    shortTitle: "Walkway Pressure Washing",
+    title: "Paths & Patio Pressure Cleaning",
+    shortTitle: "Paths & Patio Pressure Washing",
     description:
       "Clean pathways, entrances, courtyards and outdoor areas to remove dirt, mould and slippery surface buildup.",
     ctaLabel: "Get a Walkway Quote",
@@ -73,7 +73,7 @@ export const services: Service[] = [
     title: "House Washing",
     shortTitle: "House Wash",
     description:
-      "Professionally clean exterior walls and surfaces to remove dirt, grime, mould and environmental buildup while improving your home's street appeal.",
+      "Professionally clean walls and surfaces to remove dirt, grime, mould and environmental buildup while improving your home's street appeal.",
     ctaLabel: "Get a House Wash Quote",
     image: images.services.houseWash,
     articleSlug: "house-wash-adelaide",
