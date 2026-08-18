@@ -59,9 +59,9 @@ export const images = {
       before: "/images/beforeafter-exteriorwalls-before.jpg",
       after: "/images/beforeafter-exteriorwalls-after.jpg",
     },
-    gutter: {
-      before: "/images/beforeafter-gutter-before.jpg",
-      after: "/images/beforeafter-gutter-after.jpg",
+    patio: {
+      before: "/images/beforeafter-patio-before.jpg",
+      after: "/images/beforeafter-patio-after.jpg",
     },
   },
 };
