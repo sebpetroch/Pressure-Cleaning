@@ -17,6 +17,7 @@ export const images = {
     walkway: "/images/service-walkway.jpg",
     houseWash: "/images/service-housewash.png",
     roof: "/images/service-roof.webp",
+    gutter: "/images/service-gutter2.png",
     solarPanels: "/images/service-solar.jpg",
     exteriorWalls: "/images/service-exteriorwalls.jpg",
   },

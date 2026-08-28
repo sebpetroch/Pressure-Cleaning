@@ -29,7 +29,7 @@ export type ServiceKey =
   | "house-wash"
   | "driveway"
   | "walkway"
-  | "roof"
+  | "gutter"
   | "solar-panels"
   | "exterior-walls"
   | "other";
@@ -79,14 +79,14 @@ export const services: Service[] = [
     articleSlug: "house-wash-adelaide",
   },
   {
-    key: "roof",
-    title: "Roof Washing",
-    shortTitle: "Roof Washing",
+    key: "gutter",
+    title: "Gutter Cleaning",
+    shortTitle: "Gutter Cleaning",
     description:
-      "Safely remove moss, lichen, mould and built-up grime from your roof to protect your property and restore its appearance.",
-    ctaLabel: "Get a Roof Washing Quote",
-    image: images.services.roof,
-    articleSlug: "roof-washing-adelaide",
+      "Remove leaves, dirt and debris from gutters to help keep water flowing properly and protect your property.",
+    ctaLabel: "Get a Gutter Cleaning Quote",
+    image: images.services.gutter,
+    articleSlug: "gutter-cleaning-how-often-and-why-it-matters",
   },
   {
     key: "solar-panels",
