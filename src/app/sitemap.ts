@@ -1,10 +1,15 @@
 import type { MetadataRoute } from "next";
-import { business } from "@/lib/config";
+import { business, services } from "@/lib/config";
 import { articles } from "@/lib/articles";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: business.domain, lastModified: new Date(), priority: 1 },
+    ...services.map((service) => ({
+      url: `${business.domain}/services/${service.key}`,
+      lastModified: new Date(),
+      priority: 0.9,
+    })),
     { url: `${business.domain}/articles`, lastModified: new Date(), priority: 0.8 },
     ...articles.map((article) => ({
       url: `${business.domain}/articles/${article.slug}`,

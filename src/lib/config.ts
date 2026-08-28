@@ -57,6 +57,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Driveway Quote",
     image: images.services.driveway,
     articleSlug: "driveway-pressure-washing-adelaide",
+    startingPrice: 199,
   },
   {
     key: "walkway",
@@ -67,6 +68,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Walkway Quote",
     image: images.services.walkway,
     articleSlug: "walkway-pressure-washing-adelaide",
+    startingPrice: 199,
   },
   {
     key: "house-wash",
@@ -77,6 +79,7 @@ export const services: Service[] = [
     ctaLabel: "Get a House Wash Quote",
     image: images.services.houseWash,
     articleSlug: "house-wash-adelaide",
+    startingPrice: 399,
   },
   {
     key: "gutter",
@@ -87,6 +90,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Gutter Cleaning Quote",
     image: images.services.gutter,
     articleSlug: "gutter-cleaning-how-often-and-why-it-matters",
+    startingPrice: 99,
   },
   {
     key: "solar-panels",
@@ -97,6 +101,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Solar Panel Quote",
     image: images.services.solarPanels,
     articleSlug: "solar-panel-cleaning-adelaide",
+    startingPrice: 199,
   },
   {
     key: "exterior-walls",
@@ -107,6 +112,7 @@ export const services: Service[] = [
     ctaLabel: "Get an Exterior Walls Quote",
     image: images.services.exteriorWalls,
     articleSlug: "exterior-wall-cleaning-adelaide",
+    startingPrice: 149,
   },
 ];
 
