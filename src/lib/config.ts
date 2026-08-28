@@ -258,7 +258,7 @@ export const faqs = [
 ];
 
 export const navLinks = [
-  { label: "Home", href: "/#home" },
+  { label: "Home", href: "/" },
   { label: "Services", href: "/#services" },
   { label: "Articles", href: "/articles" },
   { label: "FAQ", href: "/#faq" },
