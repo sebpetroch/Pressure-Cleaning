@@ -9,7 +9,8 @@ type Props = ComponentProps<typeof Link>;
 // Wraps next/link so that clicking a same-page "/#section" link always
 // scrolls, even if the URL already has that hash (the browser only scrolls
 // on a hash *change*, so clicking the same nav item twice in a row would
-// otherwise silently do nothing).
+// otherwise silently do nothing). Deliberately never writes the hash to the
+// address bar — it just scrolls, keeping the URL as a clean "/".
 export default function SectionLink({ href, onClick, ...props }: Props) {
   const pathname = usePathname();
   const hrefStr = href.toString();
@@ -21,9 +22,6 @@ export default function SectionLink({ href, onClick, ...props }: Props) {
       if (el) {
         e.preventDefault();
         el.scrollIntoView({ behavior: "smooth", block: "start" });
-        if (window.location.hash !== `#${id}`) {
-          window.history.pushState(null, "", hrefStr);
-        }
       }
     }
     onClick?.(e);

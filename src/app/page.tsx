@@ -6,11 +6,13 @@ import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import QuoteSection from "@/components/QuoteSection";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
+import HashCleanup from "@/components/HashCleanup";
 
 export default function Home() {
   return (
     <>
       <LocalBusinessSchema />
+      <HashCleanup />
       <Hero />
       <Services />
       <QuoteSection />
