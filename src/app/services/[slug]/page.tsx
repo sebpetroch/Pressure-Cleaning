@@ -4,8 +4,30 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BadgeCheck, Building2, Phone, ShieldCheck, Sparkles } from "lucide-react";
 import { business, services } from "@/lib/config";
-import { getArticleBySlug } from "@/lib/articles";
+import { getArticleBySlug, type ArticleBlock } from "@/lib/articles";
 import QuoteSection from "@/components/QuoteSection";
+import ServiceFaqAccordion, { type ServiceQaItem } from "@/components/ServiceFaqAccordion";
+
+// Splits an article's content into leading intro paragraphs plus one Q&A
+// item per heading (everything up to the next heading becomes that answer).
+function groupArticleContent(blocks: ArticleBlock[]) {
+  const intro: ArticleBlock[] = [];
+  const items: ServiceQaItem[] = [];
+
+  for (const block of blocks) {
+    if (block.type === "heading") {
+      items.push({ question: block.text, answer: [] });
+      continue;
+    }
+    if (items.length === 0) {
+      intro.push(block);
+    } else {
+      items[items.length - 1].answer.push(block);
+    }
+  }
+
+  return { intro, items };
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -56,6 +78,9 @@ export default async function ServiceLandingPage({ params }: PageProps) {
   if (!service) notFound();
 
   const article = getArticleBySlug(service.articleSlug);
+  const { intro, items } = article
+    ? groupArticleContent(article.content)
+    : { intro: [], items: [] };
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -149,36 +174,30 @@ export default async function ServiceLandingPage({ params }: PageProps) {
       <QuoteSection />
 
       {article && (
-        <section className="bg-white py-20 sm:py-28">
+        <section className="bg-grey-light py-20 sm:py-28">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col gap-5">
-              {article.content.map((block, i) => {
-                if (block.type === "heading") {
-                  return (
-                    <h2 key={i} className="mt-3 text-xl font-bold text-navy">
+            {intro.length > 0 && (
+              <div className="mx-auto flex max-w-2xl flex-col gap-5 text-center">
+                {intro.map((block, i) =>
+                  block.type === "paragraph" ? (
+                    <p key={i} className="text-base leading-relaxed text-navy/60">
                       {block.text}
-                    </h2>
-                  );
-                }
-                if (block.type === "list") {
-                  return (
-                    <ul
-                      key={i}
-                      className="list-disc space-y-2 pl-5 text-base leading-relaxed text-navy/70"
-                    >
-                      {block.items.map((item, j) => (
-                        <li key={j}>{item}</li>
-                      ))}
-                    </ul>
-                  );
-                }
-                return (
-                  <p key={i} className="text-base leading-relaxed text-navy/70">
-                    {block.text}
-                  </p>
-                );
-              })}
+                    </p>
+                  ) : null
+                )}
+              </div>
+            )}
+
+            <div className="mx-auto max-w-2xl text-center">
+              <p className="mt-8 text-sm font-semibold uppercase tracking-wide text-blue">
+                FAQ
+              </p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
+                {service.title} Questions &amp; Answers
+              </h2>
             </div>
+
+            <ServiceFaqAccordion items={items} />
           </div>
         </section>
       )}
