@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { business } from "@/lib/config";
+import { supabase } from "@/lib/supabase";
 
 function formatServiceLabel(key: string) {
   return key
@@ -46,6 +47,37 @@ export async function POST(request: NextRequest) {
     message,
     photoCount: photos.length,
   });
+
+  // Submit into the shared CRM (business-calendar's Supabase project) so quotes show up
+  // there directly, alongside the existing email notification below. Best-effort: a CRM
+  // write failure shouldn't block the customer's submission or the email going out.
+  try {
+    const photoUrls = await Promise.all(
+      photos.map(async (file) => {
+        const ext = file.name.split(".").pop() || "jpg";
+        const path = `${Date.now()}-${Math.random().toString(36).slice(2, 10)}.${ext}`;
+        const { error: uploadError } = await supabase.storage
+          .from("quote-photos")
+          .upload(path, file, { contentType: file.type || undefined });
+        if (uploadError) throw uploadError;
+        return supabase.storage.from("quote-photos").getPublicUrl(path).data.publicUrl;
+      })
+    );
+
+    const { error: insertError } = await supabase.from("quote_requests").insert({
+      name,
+      phone,
+      email,
+      suburb,
+      services,
+      other_details: otherDetails || null,
+      message: message || null,
+      photo_urls: photoUrls,
+    });
+    if (insertError) throw insertError;
+  } catch (err) {
+    console.error("Failed to submit quote request to CRM:", err);
+  }
 
   // Email notifications require a RESEND_API_KEY environment variable.
   // Sign up free at https://resend.com, grab an API key, and add it in your
