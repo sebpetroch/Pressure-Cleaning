@@ -13,7 +13,7 @@ export default function MobileCtaBar() {
         Call Now
       </a>
       <SectionLink
-        href="/#quote"
+        href="/quote"
         className="flex flex-1 items-center justify-center gap-2 bg-blue py-3.5 text-sm font-semibold text-white"
       >
         <ClipboardList className="h-4 w-4" />

@@ -64,7 +64,7 @@ export default function Header() {
             {business.phone}
           </a>
           <SectionLink
-            href="/#quote"
+            href="/quote"
             className="rounded-lg bg-blue px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue/90"
           >
             Request a Quote
@@ -104,7 +104,7 @@ export default function Header() {
                 Call {business.phone}
               </a>
               <SectionLink
-                href="/#quote"
+                href="/quote"
                 onClick={() => setOpen(false)}
                 className="rounded-lg bg-blue px-5 py-3 text-center text-sm font-semibold text-white"
               >

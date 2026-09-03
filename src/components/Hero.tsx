@@ -38,7 +38,7 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-col items-stretch gap-4 sm:flex-row sm:items-stretch">
             <SectionLink
-              href="/#quote"
+              href="/quote"
               className="inline-flex items-center justify-center rounded-lg bg-blue px-7 py-4 text-base font-semibold text-white shadow-lg shadow-blue/20 transition-colors hover:bg-blue/90"
             >
               Request a Free Quote

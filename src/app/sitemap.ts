@@ -5,6 +5,7 @@ import { articles } from "@/lib/articles";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: business.domain, lastModified: new Date(), priority: 1 },
+    { url: `${business.domain}/quote`, lastModified: new Date(), priority: 0.9 },
     ...services.map((service) => ({
       url: `${business.domain}/services/${service.key}`,
       lastModified: new Date(),

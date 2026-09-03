@@ -180,7 +180,7 @@ export default async function ArticlePage({ params }: PageProps) {
             Get a free, no-obligation quote from Adelaide Pressure Works today.
           </p>
           <Link
-            href="/#quote"
+            href="/quote"
             className="mt-5 inline-flex items-center justify-center rounded-lg bg-blue px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue/90"
           >
             Request a Free Quote
