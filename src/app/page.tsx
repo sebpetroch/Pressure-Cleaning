@@ -4,6 +4,7 @@ import BeforeAfter from "@/components/BeforeAfter";
 import Reviews from "@/components/Reviews";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
+import QuoteSection from "@/components/QuoteSection";
 import LocalBusinessSchema from "@/components/LocalBusinessSchema";
 import HashCleanup from "@/components/HashCleanup";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <HashCleanup />
       <Hero />
       <Services />
+      <QuoteSection />
       <BeforeAfter />
       <Reviews />
       <Faq />

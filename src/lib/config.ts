@@ -7,8 +7,8 @@ export const business = {
   name: "Adelaide Pressure Works",
   shortName: "APW",
   tagline: "Professional Pressure Cleaning & Exterior Cleaning Services",
-  phone: "0400 000 000",
-  phoneHref: "tel:+61400000000",
+  phone: "0412 712 078",
+  phoneHref: "tel:+61412712078",
   email: "adelaidepressureworks@gmail.com",
   abn: "44 762 257 208",
   address: {
