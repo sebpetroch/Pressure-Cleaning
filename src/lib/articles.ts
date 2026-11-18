@@ -875,7 +875,7 @@ export const articles: Article[] = [
       { type: "heading", text: "How much does it cost?" },
       {
         type: "paragraph",
-        text: "A full house wash starts from $399, depending on the size of the home, the number of storeys and the current condition of the exterior. We're happy to provide a firm quote once we know a bit more about the property.",
+        text: "A full house wash starts from $499, depending on the size of the home, the number of storeys and the current condition of the exterior. We're happy to provide a firm quote once we know a bit more about the property.",
       },
       { type: "heading", text: "Is it safe for older homes?" },
       {
@@ -963,7 +963,7 @@ export const articles: Article[] = [
       { type: "heading", text: "How much does it cost?" },
       {
         type: "paragraph",
-        text: "Solar panel cleaning starts from $249, depending on the number of panels, their accessibility and how long it's been since they were last cleaned. Get in touch for a free quote.",
+        text: "Solar panel cleaning starts from $199, depending on the number of panels, their accessibility and how long it's been since they were last cleaned. Get in touch for a free quote.",
       },
       { type: "heading", text: "Best time of year to clean" },
       {
@@ -1007,7 +1007,7 @@ export const articles: Article[] = [
       { type: "heading", text: "How much does it cost?" },
       {
         type: "paragraph",
-        text: "Exterior wall cleaning starts from $149, depending on the area involved, the wall material and how much staining needs to be removed. Send us a few photos and we'll come back with a clear quote.",
+        text: "Exterior wall cleaning starts from $249, depending on the area involved, the wall material and how much staining needs to be removed. Send us a few photos and we'll come back with a clear quote.",
       },
       { type: "heading", text: "Brick, render or cladding?" },
       {

@@ -83,7 +83,7 @@ export const services: Service[] = [
     ctaLabel: "Get a House Wash Quote",
     image: images.services.houseWash,
     articleSlug: "house-wash-adelaide",
-    startingPrice: 399,
+    startingPrice: 499,
   },
   {
     key: "gutter",
@@ -94,7 +94,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Gutter Cleaning Quote",
     image: images.services.gutter,
     articleSlug: "gutter-cleaning-how-often-and-why-it-matters",
-    startingPrice: 99,
+    startingPrice: 149,
   },
   {
     key: "solar-panels",
@@ -116,7 +116,7 @@ export const services: Service[] = [
     ctaLabel: "Get an Exterior Walls Quote",
     image: images.services.exteriorWalls,
     articleSlug: "exterior-wall-cleaning-adelaide",
-    startingPrice: 149,
+    startingPrice: 249,
   },
 ];
 
