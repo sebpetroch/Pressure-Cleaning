@@ -26,7 +26,7 @@ export const business = {
     instagram: "https://www.instagram.com/adelaidepressureworks/",
   },
   hours: "Mon – Sat: 7:00am – 5:00pm",
-  domain: "https://adelaidepressureworks.vercel.app",
+  domain: "https://www.adelaidepressureworks.com",
 };
 
 export type ServiceKey =
