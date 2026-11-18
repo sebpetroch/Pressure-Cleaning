@@ -61,7 +61,7 @@ export const services: Service[] = [
     ctaLabel: "Get a Driveway Quote",
     image: images.services.driveway,
     articleSlug: "driveway-pressure-washing-adelaide",
-    startingPrice: 199,
+    startingPrice: 249,
   },
   {
     key: "walkway",

@@ -787,7 +787,7 @@ export const articles: Article[] = [
       { type: "heading", text: "How much does it cost?" },
       {
         type: "paragraph",
-        text: "Driveway pressure washing starts from $199, with the final price depending on the size of the driveway, the surface type and how much staining needs to be removed. We provide a clear quote before any work begins, based on your description or photos.",
+        text: "Driveway pressure washing starts from $249, with the final price depending on the size of the driveway, the surface type and how much staining needs to be removed. We provide a clear quote before any work begins, based on your description or photos.",
       },
       { type: "heading", text: "How often should it be done?" },
       {
