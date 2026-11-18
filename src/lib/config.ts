@@ -14,7 +14,7 @@ export const business = {
   // onboarding@resend.dev sender can ONLY deliver to the Resend account owner's
   // own address, so this must stay that address until a domain is verified in Resend.
   notificationEmail: "adelaidepressureworks@gmail.com",
-  abn: "44 762 257 208",
+  abn: "45 591 141 840",
   address: {
     suburb: "Adelaide",
     state: "SA",
