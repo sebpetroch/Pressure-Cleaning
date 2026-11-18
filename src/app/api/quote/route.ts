@@ -95,9 +95,9 @@ export async function POST(request: NextRequest) {
         }))
       );
 
-      await resend.emails.send({
+      const { error: sendError } = await resend.emails.send({
         from: `${business.name} Website <onboarding@resend.dev>`,
-        to: business.email,
+        to: business.notificationEmail,
         replyTo: email,
         subject: `New Quote Request from ${name} (${suburb})`,
         text: [
@@ -114,6 +114,8 @@ export async function POST(request: NextRequest) {
           .join("\n"),
         attachments,
       });
+      // The Resend SDK returns errors instead of throwing, so check explicitly.
+      if (sendError) throw sendError;
     } catch (err) {
       console.error("Failed to send quote notification email:", err);
     }

@@ -10,6 +10,10 @@ export const business = {
   phone: "0412 712 078",
   phoneHref: "tel:+61412712078",
   email: "admin@adelaidepressureworks.com",
+  // Where quote-request notification emails are delivered. Resend's shared
+  // onboarding@resend.dev sender can ONLY deliver to the Resend account owner's
+  // own address, so this must stay that address until a domain is verified in Resend.
+  notificationEmail: "adelaidepressureworks@gmail.com",
   abn: "44 762 257 208",
   address: {
     suburb: "Adelaide",
